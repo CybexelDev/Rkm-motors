@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        fontFamily: {
-          kanit: ['Kanit', 'sans-serif'],
-          kumbh: ['Kumbh Sans', 'sans-serif'],
+  <link rel="icon" type="image/png" href="./assets/images/hondablack.jpg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            kanit: ['Kanit', 'sans-serif'],
+            kumbh: ['Kumbh Sans', 'sans-serif'],
+          }
         }
       }
     }
-  }
-</script>
-  <title>RKM Motors</title>
+  </script>
+  <title>Rkm Honda</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 
 </head>
 
 <body class="bg-black text-white overflow-x-hidden m-0 p-0">
-<nav class="relative md:absolute top-0 left-0 w-full z-30">
-  
-  
-  <div class="max-w-8xl mx-auto flex items-center justify-between px-5 md:pl-20 lg:pr-[400px] py-6">
+  <nav class="relative md:absolute top-0 left-0 w-full z-30">
 
-    <!-- LOGO -->
-    <img src="./assets/images/logo.png" class="h-[60px] md:h-[78px]" />
 
-    <!-- HAMBURGER -->
-    <button id="menu-btn" class="md:hidden text-white text-3xl z-50">
-      ☰
-    </button>
+    <div class="max-w-8xl mx-auto flex items-center justify-between px-5 md:pl-20 lg:pr-[400px] py-6">
 
-    <!-- OVERLAY -->
-    <div id="overlay"
-      class="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition duration-300 md:hidden">
-    </div>
+      <!-- LOGO -->
+      <img src="./assets/images/logo.png" class="h-[60px] md:h-[78px]" />
 
-    <!-- MENU -->
-    <ul id="menu"
-      class="fixed top-0 right-0 h-screen w-[75%] bg-black flex flex-col items-center justify-center gap-8 text-white font-kanit 
+      <!-- HAMBURGER -->
+      <button id="menu-btn" class="md:hidden text-white text-3xl z-50">
+        ☰
+      </button>
+
+      <!-- OVERLAY -->
+      <div id="overlay"
+        class="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition duration-300 md:hidden">
+      </div>
+
+      <!-- MENU -->
+      <ul id="menu" class="fixed top-0 right-0 h-screen w-[75%] bg-black flex flex-col items-center justify-center gap-8 text-white font-kanit 
       transform translate-x-full transition-transform duration-300 ease-in-out z-50
 
       md:static md:h-auto md:w-auto md:flex-row md:translate-x-0 md:bg-transparent md:gap-[51px]">
 
-      <!-- CLOSE BUTTON -->
-      <button id="close-btn" class="absolute top-6 right-6 text-2xl md:hidden">
-        ✕
-      </button>
+        <!-- CLOSE BUTTON -->
+        <button id="close-btn" class="absolute top-6 right-6 text-2xl md:hidden">
+          ✕
+        </button>
 
-      <li><a href="#home" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#service" class="nav-link">Services</a></li>
-      <li><a href="#gallery" class="nav-link">Gallery</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#service" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
 
-    </ul>
+      </ul>
 
-  </div>
+    </div>
 
 
-</nav>
-<section class="hidden md:flex relative h-screen items-center px-10 overflow-hidden" id="home">
+  </nav>
+  <section class="hidden md:flex relative h-screen items-center px-10 overflow-hidden" id="home">
 
-<div class="absolute inset-0 mb-[-80px]"
-     style="
+    <div class="absolute inset-0 mb-[-80px]" style="
        background-image: url('./assets/images/bgheader.png');
        background-position: 110% center;
        background-size: 78%;
        background-repeat: no-repeat;
      ">
-</div>
-<div class="absolute inset-0 bg-black/80"></div>
+    </div>
+    <div class="absolute inset-0 bg-black/80"></div>
 
 
     <div class="relative overflow-hidden z-20 max-w-[760px] pl-[70px] font-kumbh mt-[50px]">
 
-      <h1  data-aos="fade-up"
- class="text-4xl md:text-[40px] font-semibold leading-tight mb-4">
-        Authorized Honda Bike Showroom 
+      <h1 data-aos="fade-up" class="text-4xl md:text-[40px] font-semibold leading-tight mb-4">
+        Authorized Honda Bike Showroom
         in Bhavani
       </h1>
 
-      <p  data-aos="fade-up" data-aos-delay="150" class="text-gray-300 mb-6 text-[16px] leading-relaxed max-w-[357px]">
-        Explore the latest Honda bikes with trusted service and best deals at RKM Motors.
+      <p data-aos="fade-up" data-aos-delay="150" class="text-gray-300 mb-6 text-[16px] leading-relaxed max-w-[357px]">
+        Explore the latest Honda bikes with trusted service and best deals at Rkm Honda.
       </p>
 
       <div class="flex items-center gap-8 mb-6" data-aos="fade-up" data-aos-delay="300">
 
-      <div>
-  <h2 class="text-[32px] font-bold">4.2</h2>
+        <div>
+          <h2 class="text-[32px] font-bold">4.2</h2>
 
-  <p class="flex items-center gap-[6px] text-yellow-400 text-[20px]" >
-    <img src="./assets/images/star.png" class="w-[20px] h-[20px]" />
-    Rating
-  </p>
-</div>
+          <p class="flex items-center gap-[6px] text-yellow-400 text-[20px]">
+            <img src="./assets/images/star.png" class="w-[20px] h-[20px]" />
+            Rating
+          </p>
+        </div>
 
         <div>
           <h2 class="text-[32px] font-bold">264</h2>
- <p class="flex items-center gap-[6px] text-yellow-400 text-[20px]">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#fedd67" d="M15.254 2a2.25 2.25 0 0 1 2.236 2h1.268a1.75 1.75 0 0 1 1.744 1.606l.006.144v3a3.25 3.25 0 0 1-3.066 3.245l-.21.006a5.76 5.76 0 0 1-4.731 3.95V17.5h1.753a3.25 3.25 0 0 1 3.244 3.066l.006.184v.5a.75.75 0 0 1-.649.743l-.101.007H6.75a.75.75 0 0 1-.744-.648L6 21.25v-.5a3.25 3.25 0 0 1 3.065-3.245l.185-.005H11v-1.549a5.76 5.76 0 0 1-4.729-3.95L6.246 12a3.25 3.25 0 0 1-3.25-3.25v-3c0-.966.784-1.75 1.75-1.75h1.268a2.25 2.25 0 0 1 2.237-2zm3.504 3.5h-1.254v4.983A1.75 1.75 0 0 0 19 8.904l.007-.154v-3a.25.25 0 0 0-.193-.243zM6 5.5H4.746a.25.25 0 0 0-.25.25v3a1.75 1.75 0 0 0 1.505 1.733z"/></svg> Google Reviews
-  </p>        </div>
+          <p class="flex items-center gap-[6px] text-yellow-400 text-[20px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#fedd67"
+                d="M15.254 2a2.25 2.25 0 0 1 2.236 2h1.268a1.75 1.75 0 0 1 1.744 1.606l.006.144v3a3.25 3.25 0 0 1-3.066 3.245l-.21.006a5.76 5.76 0 0 1-4.731 3.95V17.5h1.753a3.25 3.25 0 0 1 3.244 3.066l.006.184v.5a.75.75 0 0 1-.649.743l-.101.007H6.75a.75.75 0 0 1-.744-.648L6 21.25v-.5a3.25 3.25 0 0 1 3.065-3.245l.185-.005H11v-1.549a5.76 5.76 0 0 1-4.729-3.95L6.246 12a3.25 3.25 0 0 1-3.25-3.25v-3c0-.966.784-1.75 1.75-1.75h1.268a2.25 2.25 0 0 1 2.237-2zm3.504 3.5h-1.254v4.983A1.75 1.75 0 0 0 19 8.904l.007-.154v-3a.25.25 0 0 0-.193-.243zM6 5.5H4.746a.25.25 0 0 0-.25.25v3a1.75 1.75 0 0 0 1.505 1.733z" />
+            </svg> Google Reviews
+          </p>
+        </div>
 
       </div>
 
-      <div class="flex gap-4" data-aos="fade-up" data-aos-delay="450"
->
-       <a href="#contact">
-  <button class="bg-[#D93738] px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
-    Go to Contact
-  </button>
-</a>
-       <a href="#contact">
-        <button class="bg-[#D9CBCB] text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition flex items-center">
-          <img src="./assets/images/phone.png" class="w-[27px] h-[27px]">
-          Get Directions
-        </button>
+      <div class="flex gap-4" data-aos="fade-up" data-aos-delay="450">
+        <a href="#contact">
+          <button class="bg-[#D93738] px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
+            Go to Contact
+          </button>
+        </a>
+        <a href="#contact">
+          <button
+            class="bg-[#D9CBCB] text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition flex items-center">
+            <img src="./assets/images/phone.png" class="w-[27px] h-[27px]">
+            Get Directions
+          </button>
         </a>
 
       </div>
@@ -133,15 +139,13 @@
     </div>
 
 
-    <img src="./assets/images/bike2.png"
-         data-aos="fade-left"
+    <img src="./assets/images/bike2.png" data-aos="fade-left"
+      class="absolute right-[170px] bottom-0  w-[650px] md:w-[880px] z-20  " />
 
-         class="absolute right-[170px] bottom-0  w-[650px] md:w-[880px] z-20  " />
 
-         
   </section>
   <!-- MOBILE + TABLET ONLY -->
-<!-- <section class="block md:hidden relative overflow-hidden bg-black text-white px-5 pb-2" >
+  <!-- <section class="block md:hidden relative overflow-hidden bg-black text-white px-5 pb-2" >
  
   <div class="font-kumbh">
 
@@ -151,7 +155,7 @@
     </h1>
 
     <p class="text-gray-300 mb-6 text-sm leading-relaxed z-10 relative" data-aos="fade-up" data-aos-delay="100">
-      Explore the latest Honda bikes with trusted service and best deals at RKM Motors.
+      Explore the latest Honda bikes with trusted service and best deals at Rkm Honda.
     </p>
 
 
@@ -186,70 +190,76 @@
 
 </div>
 </section> -->
-<section class="block md:hidden relative bg-[#0a0a0a] text-white px-5 pt-9 overflow-hidden font-kumbh">
-<!-- 🔴 RIGHT SIDE BG IMAGE -->
-<img src="./assets/images/bgheader.png"
-     class="absolute right-[-40px] top-[90px] -translate-y-1/2
+  <section class="block md:hidden relative bg-[#0a0a0a] text-white px-5 pt-9 overflow-hidden font-kumbh">
+    <!-- 🔴 RIGHT SIDE BG IMAGE -->
+    <img src="./assets/images/bgheader.png" class="absolute right-[-40px] top-[90px] -translate-y-1/2
             w-[220px] opacity-30 
             pointer-events-none select-none z-0" />
-  <!-- Glows -->
-  <div class="absolute top-[-80px] right-[-60px] w-[220px] h-[220px] bg-red-600/10 blur-[80px] rounded-full pointer-events-none"></div>
-  <div class="absolute bottom-[80px] left-[-40px] w-[160px] h-[160px] bg-red-600/7 blur-[60px] rounded-full pointer-events-none"></div>
-
-  <div class="relative z-10">
-
-    <!-- Tag -->
-    <span class="inline-flex items-center gap-1.5 bg-[#1a1a1a] border border-[#2e2e2e] rounded-full px-3 py-1 text-[11px] text-gray-400 tracking-wide mb-4">
-      <span class="w-1.5 h-1.5 rounded-full bg-[#D93738] inline-block"></span>
-      RKM Motors, Bhavani
-    </span>
-
-    <!-- Heading -->
-    <h1 class="text-[1.55rem] font-bold leading-tight tracking-tight mb-2.5">
-      Ride the <span class="text-[#D93738]">Latest</span><br/>Honda Bikes
-    </h1>
-
-    <!-- Sub -->
-    <p class="text-sm text-gray-500 leading-relaxed mb-5 max-w-[280px]">
-      Authorized showroom with trusted service, easy finance &amp; the best deals on all Honda models.
-    </p>
-
-    <!-- Buttons -->
-    <div class="flex gap-2.5 items-center mb-6">
-             <a href="#contact">
-
-      <button class="bg-[#D93738] text-white text-sm font-semibold px-5 py-2.5 rounded-[10px]">Go to Contact</button>
-      </a>
-             <a href="#contact">
-
-      <button class="border border-[#333] text-gray-400 text-sm font-medium px-4 py-2.5 rounded-[10px]">Get Directions</button>
-      </a>
+    <!-- Glows -->
+    <div
+      class="absolute top-[-80px] right-[-60px] w-[220px] h-[220px] bg-red-600/10 blur-[80px] rounded-full pointer-events-none">
+    </div>
+    <div
+      class="absolute bottom-[80px] left-[-40px] w-[160px] h-[160px] bg-red-600/7 blur-[60px] rounded-full pointer-events-none">
     </div>
 
-    <!-- Stats -->
-    <div class="flex border-t border-b border-[#1e1e1e] py-3">
-      <div class="flex-1 text-center">
-        <p class="text-lg font-bold">50+</p>
-        <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">MODELS</p>
+    <div class="relative z-10">
+
+      <!-- Tag -->
+      <span
+        class="inline-flex items-center gap-1.5 bg-[#1a1a1a] border border-[#2e2e2e] rounded-full px-3 py-1 text-[11px] text-gray-400 tracking-wide mb-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#D93738] inline-block"></span>
+        Rkm Honda, Bhavani
+      </span>
+
+      <!-- Heading -->
+      <h1 class="text-[1.55rem] font-bold leading-tight tracking-tight mb-2.5">
+        Ride the <span class="text-[#D93738]">Latest</span><br />Honda Bikes
+      </h1>
+
+      <!-- Sub -->
+      <p class="text-sm text-gray-500 leading-relaxed mb-5 max-w-[280px]">
+        Authorized showroom with trusted service, easy finance &amp; the best deals on all Honda models.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex gap-2.5 items-center mb-6">
+        <a href="#contact">
+
+          <button class="bg-[#D93738] text-white text-sm font-semibold px-5 py-2.5 rounded-[10px]">Go to
+            Contact</button>
+        </a>
+        <a href="#contact">
+
+          <button class="border border-[#333] text-gray-400 text-sm font-medium px-4 py-2.5 rounded-[10px]">Get
+            Directions</button>
+        </a>
       </div>
-      <div class="flex-1 text-center border-l border-[#1e1e1e]">
-        <p class="text-lg font-bold">10K+</p>
-        <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">CUSTOMERS</p>
+
+      <!-- Stats -->
+      <div class="flex border-t border-b border-[#1e1e1e] py-3">
+        <div class="flex-1 text-center">
+          <p class="text-lg font-bold">50+</p>
+          <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">MODELS</p>
+        </div>
+        <div class="flex-1 text-center border-l border-[#1e1e1e]">
+          <p class="text-lg font-bold">10K+</p>
+          <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">CUSTOMERS</p>
+        </div>
+        <div class="flex-1 text-center border-l border-[#1e1e1e]">
+          <p class="text-lg font-bold">0%</p>
+          <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">EMI OFFERS</p>
+        </div>
       </div>
-      <div class="flex-1 text-center border-l border-[#1e1e1e]">
-        <p class="text-lg font-bold">0%</p>
-        <p class="text-[10px] text-gray-600 tracking-widest mt-0.5">EMI OFFERS</p>
-      </div>
+
     </div>
 
-  </div>
 
 
+  </section>
+  <section class="bg-black py-10 flex justify-center px-5" data-aos="fade-up">
 
-</section>
-<section class="bg-black py-10 flex justify-center px-5"  data-aos="fade-up">
-
-  <div class="
+    <div class="
     w-[75%] md:w-[75%] 
     w-full
     bg-[#111111] rounded-xl 
@@ -262,176 +272,181 @@
     border border-red-500
   ">
 
-    <div class="flex items-center gap-3 w-full md:w-auto">
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="#D2222B" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>      <div>
-        <p class="text-white text-[16px] font-bold">Location</p>
-        <p class="text-[#A7A7A7] text-[14px] font-[500]">Bhavani, Tamil Nadu</p>
+      <div class="flex items-center gap-3 w-full md:w-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+          <path fill="#D2222B"
+            d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7" />
+        </svg>
+        <div>
+          <p class="text-white text-[16px] font-bold">Location</p>
+          <p class="text-[#A7A7A7] text-[14px] font-[500]">Bhavani, Tamil Nadu</p>
+        </div>
       </div>
+
+      <div class="hidden md:block h-10 w-px bg-gray-700"></div>
+
+      <div class="flex items-center gap-3 w-full md:w-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+          <path fill="#c20b0b"
+            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m1-10V7h-2v7h6v-2z" />
+        </svg>
+        <div>
+          <p class="text-white text-[16px] font-bold">Hours</p>
+          <p class="text-[#A7A7A7] text-[14px] font-[500]">Open - Closes 8 PM</p>
+        </div>
+      </div>
+
+      <div class="hidden md:block h-10 w-px bg-gray-700"></div>
+
+      <div class="flex items-center gap-3 w-full md:w-auto">
+        <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_33_219)">
+            <path
+              d="M16.1648 0.0722733C15.4125 0.173447 15.1875 0.462509 15.1102 1.43087C15.0469 2.1463 14.9203 2.6377 14.6531 3.18692C14.1891 4.14083 13.268 4.9213 12.2695 5.21036C11.7141 5.36934 10.6102 5.34044 10.0055 5.14532C9.47812 4.97911 8.62734 4.44434 8.26172 4.05411C8.00156 3.76505 7.61484 3.65665 7.24922 3.75782C6.88359 3.85899 6.05391 4.55997 5.09766 5.57169C4.07812 6.65567 3.79688 7.017 3.74766 7.32774C3.67734 7.79747 3.77578 8.0504 4.25391 8.59962C5.43516 9.95098 5.65312 11.6709 4.85156 13.2969C4.59844 13.8172 3.75469 14.6121 3.15703 14.9084C2.54531 15.2119 1.83516 15.3926 1.27969 15.3926C0.717187 15.3926 0.428906 15.5588 0.210938 16.0068C0.0351562 16.3682 0.0351562 16.3754 0.0351562 18.4639C0.0351562 20.3717 0.0492187 20.5813 0.16875 20.8342C0.372656 21.2606 0.745312 21.4412 1.59609 21.5279C2.41875 21.6147 2.86875 21.7809 3.53672 22.2361C4.6125 22.9733 5.23125 24.1801 5.23125 25.5459C5.22422 26.5649 4.92188 27.3815 4.22578 28.2342C4.00078 28.516 3.77578 28.8123 3.73359 28.8918C3.63516 29.0869 3.63516 29.5928 3.73359 29.7951C3.97969 30.2721 5.71641 32.1438 6.55312 32.8375C7.13672 33.3145 7.69219 33.2856 8.25469 32.7363C8.96484 32.057 9.82969 31.6524 10.8281 31.544C11.6719 31.4572 12.6633 31.768 13.4578 32.3678C14.3438 33.0399 14.9766 34.3623 14.9766 35.533C14.9766 36.0822 15.1242 36.4941 15.4055 36.7037C15.7148 36.9422 16.5797 37.0217 18.4219 36.9856C19.7578 36.9566 20.0461 36.935 20.2711 36.8266C20.707 36.6098 20.8266 36.3568 20.8898 35.5619C20.9742 34.4274 21.3328 33.5818 22.043 32.8375C22.8305 32.0137 23.5828 31.6957 24.75 31.6957C25.8961 31.6885 26.768 32.0426 27.6469 32.8664C28.1109 33.3 28.5469 33.3867 29.0039 33.1483C29.4609 32.9098 31.2328 31.1754 31.957 30.2504C32.2172 29.9252 32.2383 29.8602 32.2383 29.4483C32.2383 28.9641 32.2805 29.0363 31.5 28.0752C30.4945 26.8395 30.3961 24.8377 31.275 23.4936C32.0203 22.3518 33.1383 21.6941 34.4531 21.6219C35.3039 21.5785 35.5711 21.4484 35.7961 20.9787C35.9648 20.6391 35.9648 20.5885 35.9648 18.5361C35.9648 16.6283 35.9508 16.4188 35.8312 16.1658C35.6484 15.7828 35.2406 15.5588 34.6289 15.501C33.518 15.3926 32.625 15.0024 31.9852 14.3592C30.4242 12.7838 30.3398 10.5147 31.7742 8.76583C31.9992 8.48399 32.2242 8.1877 32.2664 8.10821C32.3648 7.9131 32.3648 7.40724 32.2664 7.20489C32.0203 6.72794 30.2836 4.85626 29.4469 4.16251C28.8703 3.68555 28.3359 3.71446 27.7594 4.25645C26.9016 5.0586 26.0016 5.43438 24.8906 5.44161C24.2016 5.44884 23.7797 5.34767 23.168 5.04415C21.8883 4.39376 21.0305 2.93399 21.0234 1.40919C21.0164 0.52755 20.707 0.166222 19.8773 0.0650482C19.2727 -0.00721741 16.7203 7.62939e-06 16.1648 0.0722733ZM19.357 7.98536C24.6234 8.69356 28.5398 13.4848 28.3148 18.9336C28.2516 20.4656 27.907 21.8387 27.225 23.2551L26.9016 23.9272L24.6586 21.6219L22.4156 19.3166L22.5914 18.7385C23.6883 15.183 21.7125 11.4324 18.1969 10.4063C17.4445 10.1822 16.1086 10.1316 15.3281 10.2979C14.6039 10.4496 14.5195 10.493 14.3719 10.782C14.1258 11.2662 14.1961 11.3674 15.968 13.1957L17.5922 14.8723L17.55 15.1541C17.5289 15.3059 17.4797 15.7033 17.4375 16.043C17.3953 16.3826 17.325 16.8379 17.2758 17.0547L17.1914 17.4522L16.8047 17.5389C16.0594 17.7123 14.8219 17.8424 14.6672 17.7629C14.5828 17.7195 13.8094 16.9608 12.9375 16.0719C11.3625 14.4676 11.3484 14.4531 11.0461 14.4531C10.5609 14.4531 10.3852 14.6916 10.2305 15.566C9.71719 18.5 11.1867 21.434 13.7953 22.6842C15.2367 23.3779 16.9312 23.4936 18.443 23.0022L19.0055 22.8215L21.2484 25.1268C22.4789 26.3914 23.4844 27.4465 23.4844 27.4754C23.4844 27.5621 21.9867 28.3065 21.3539 28.5377C17.6273 29.8818 13.3242 28.8123 10.582 25.8639C6.98203 21.9977 6.69375 16.1947 9.88594 11.96C12.1078 9.01153 15.7219 7.49395 19.357 7.98536Z"
+              fill="#C92727" />
+          </g>
+          <defs>
+            <clipPath id="clip0_33_219">
+              <rect width="36" height="37" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <div>
+          <p class="text-white text-[16px] font-bold">Services</p>
+          <p class="text-[#A7A7A7] text-[14px] font-[500]">In-store shopping • Delivery</p>
+        </div>
+      </div>
+
+      <div class="hidden md:block h-10 w-px bg-gray-700"></div>
+
+      <div class="flex items-center gap-3 w-full md:w-auto">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15.9608 3.12894C13.8866 3.43128 11.9812 4.09925 10.3429 5.08363C6.36318 7.48128 3.75459 11.4118 3.12881 15.961C2.98115 17.0227 2.98115 18.9844 3.12881 20.0391C3.58584 23.3227 5.04834 26.2758 7.38975 28.6172C9.73115 30.9586 12.6421 32.4 15.996 32.8711C16.9452 33.0118 19.0476 33.0047 20.053 32.8641C26.7187 31.95 31.9569 26.7118 32.871 20.0391C33.0187 18.9774 33.0187 17.0157 32.871 15.961C32.414 12.6774 30.9515 9.72425 28.6101 7.38988C26.2757 5.0555 23.3226 3.57894 20.053 3.13597C19.0968 3.00237 16.8397 2.99534 15.9608 3.12894ZM13.1905 10.4203C13.5491 10.6875 16.0382 13.1766 16.1437 13.3735C16.3616 13.7953 16.221 14.0766 15.2226 15.1875C14.8921 15.5532 14.6249 15.8836 14.6249 15.9258C14.6249 16.0524 15.2155 17.0508 15.6585 17.6625C16.2069 18.436 17.2757 19.5469 17.9577 20.0532C18.5062 20.461 19.9827 21.375 20.0952 21.375C20.1304 21.375 20.3765 21.1782 20.6437 20.9321C20.9108 20.693 21.2905 20.3625 21.4874 20.2008C22.3171 19.5118 22.4366 19.561 24.1593 21.3258C24.8835 22.0711 25.5304 22.7672 25.6077 22.8868C25.8187 23.2383 25.7765 23.5758 25.439 24.068C24.6304 25.2563 23.6038 25.7414 21.8671 25.7414C20.1655 25.7414 18.3655 24.9399 16.3546 23.2875C15.6022 22.6688 13.5843 20.6368 12.7827 19.6875C11.6858 18.3867 10.814 16.875 10.4624 15.6446C10.3218 15.1664 10.3007 14.9274 10.3077 14.0274C10.3077 13.0852 10.3288 12.9164 10.4976 12.4032C10.7507 11.6368 11.1304 11.1305 11.7983 10.6524C12.2624 10.3219 12.389 10.2727 12.6632 10.2657C12.8882 10.2657 13.0499 10.3149 13.1905 10.4203Z"
+            fill="#C92727" />
+        </svg>
+        <div>
+          <p class="text-white text-[16px] font-bold">Contact</p>
+          <p class="text-[#A7A7A7] text-[14px] font-[500]">+91 7373226888</p>
+        </div>
+      </div>
+
     </div>
 
-    <div class="hidden md:block h-10 w-px bg-gray-700"></div>
+  </section>
 
-    <div class="flex items-center gap-3 w-full md:w-auto">
-<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_33_209)">
-<g clip-path="url(#clip1_33_209)">
-<path d="M7.915 2.31867C6.11763 3.51692 3.52143 6.11312 2.22332 8.01035C0.226241 11.006 -0.073321 12.5038 0.226241 18.0956C0.825366 29.1794 7.01632 34.9709 18.0003 34.9709C24.1912 34.9709 27.9857 33.1736 31.6803 28.3806C33.8771 25.385 34.4762 23.4877 34.7757 18.0956C35.0753 12.5038 34.7757 11.006 32.7787 8.01035C28.8844 2.21881 24.5906 0.0220261 17.501 0.0220261C12.708 0.0220261 10.5112 0.521297 7.915 2.31867ZM23.5921 5.11458C26.6876 6.61239 28.3851 8.30991 29.8829 11.4054C32.3792 16.4979 32.4791 17.796 30.3822 22.9885C27.4864 30.178 19.0987 33.4731 11.7095 30.178C8.31442 28.6801 6.81661 27.1823 5.11909 23.7873C2.52288 18.2953 2.52288 16.6977 5.11909 11.4054C6.51705 8.40977 8.31442 6.61239 11.31 5.11458C16.5025 2.51838 18.2998 2.51838 23.5921 5.11458Z" fill="#D2222B"/>
-<path d="M15.8035 11.006C15.7037 13.702 15.6038 16.5978 15.6038 17.2968C15.5039 17.9957 17.2015 20.0927 19.2984 21.9899C22.0943 24.3864 23.3924 24.9855 24.1912 24.1867C24.9901 23.3879 24.391 22.0898 22.0943 19.4936C19.4981 16.4979 18.9988 15.1 18.9988 11.006C18.9988 7.21151 18.5994 6.01326 17.501 6.01326C16.4026 6.01326 16.0032 7.31136 15.8035 11.006Z" fill="#D2222B"/>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_33_209">
-<rect width="35" height="35" fill="white"/>
-</clipPath>
-<clipPath id="clip1_33_209">
-<rect width="34.9489" height="34.9489" fill="white" transform="translate(0.0266113 0.0220337)"/>
-</clipPath>
-</defs>
-</svg>
-      <div>
-        <p class="text-white text-[16px] font-bold">Hours</p>
-        <p class="text-[#A7A7A7] text-[14px] font-[500]">Open - Closes 8 PM</p>
-      </div>
-    </div>
+  <section class="relative bg-black py-20 overflow-hidden" id="about" data-aos="fade-up">
 
-    <div class="hidden md:block h-10 w-px bg-gray-700"></div>
+    <div class="absolute inset-0 overflow-hidden">
 
-    <div class="flex items-center gap-3 w-full md:w-auto">
-<svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_33_219)">
-<path d="M16.1648 0.0722733C15.4125 0.173447 15.1875 0.462509 15.1102 1.43087C15.0469 2.1463 14.9203 2.6377 14.6531 3.18692C14.1891 4.14083 13.268 4.9213 12.2695 5.21036C11.7141 5.36934 10.6102 5.34044 10.0055 5.14532C9.47812 4.97911 8.62734 4.44434 8.26172 4.05411C8.00156 3.76505 7.61484 3.65665 7.24922 3.75782C6.88359 3.85899 6.05391 4.55997 5.09766 5.57169C4.07812 6.65567 3.79688 7.017 3.74766 7.32774C3.67734 7.79747 3.77578 8.0504 4.25391 8.59962C5.43516 9.95098 5.65312 11.6709 4.85156 13.2969C4.59844 13.8172 3.75469 14.6121 3.15703 14.9084C2.54531 15.2119 1.83516 15.3926 1.27969 15.3926C0.717187 15.3926 0.428906 15.5588 0.210938 16.0068C0.0351562 16.3682 0.0351562 16.3754 0.0351562 18.4639C0.0351562 20.3717 0.0492187 20.5813 0.16875 20.8342C0.372656 21.2606 0.745312 21.4412 1.59609 21.5279C2.41875 21.6147 2.86875 21.7809 3.53672 22.2361C4.6125 22.9733 5.23125 24.1801 5.23125 25.5459C5.22422 26.5649 4.92188 27.3815 4.22578 28.2342C4.00078 28.516 3.77578 28.8123 3.73359 28.8918C3.63516 29.0869 3.63516 29.5928 3.73359 29.7951C3.97969 30.2721 5.71641 32.1438 6.55312 32.8375C7.13672 33.3145 7.69219 33.2856 8.25469 32.7363C8.96484 32.057 9.82969 31.6524 10.8281 31.544C11.6719 31.4572 12.6633 31.768 13.4578 32.3678C14.3438 33.0399 14.9766 34.3623 14.9766 35.533C14.9766 36.0822 15.1242 36.4941 15.4055 36.7037C15.7148 36.9422 16.5797 37.0217 18.4219 36.9856C19.7578 36.9566 20.0461 36.935 20.2711 36.8266C20.707 36.6098 20.8266 36.3568 20.8898 35.5619C20.9742 34.4274 21.3328 33.5818 22.043 32.8375C22.8305 32.0137 23.5828 31.6957 24.75 31.6957C25.8961 31.6885 26.768 32.0426 27.6469 32.8664C28.1109 33.3 28.5469 33.3867 29.0039 33.1483C29.4609 32.9098 31.2328 31.1754 31.957 30.2504C32.2172 29.9252 32.2383 29.8602 32.2383 29.4483C32.2383 28.9641 32.2805 29.0363 31.5 28.0752C30.4945 26.8395 30.3961 24.8377 31.275 23.4936C32.0203 22.3518 33.1383 21.6941 34.4531 21.6219C35.3039 21.5785 35.5711 21.4484 35.7961 20.9787C35.9648 20.6391 35.9648 20.5885 35.9648 18.5361C35.9648 16.6283 35.9508 16.4188 35.8312 16.1658C35.6484 15.7828 35.2406 15.5588 34.6289 15.501C33.518 15.3926 32.625 15.0024 31.9852 14.3592C30.4242 12.7838 30.3398 10.5147 31.7742 8.76583C31.9992 8.48399 32.2242 8.1877 32.2664 8.10821C32.3648 7.9131 32.3648 7.40724 32.2664 7.20489C32.0203 6.72794 30.2836 4.85626 29.4469 4.16251C28.8703 3.68555 28.3359 3.71446 27.7594 4.25645C26.9016 5.0586 26.0016 5.43438 24.8906 5.44161C24.2016 5.44884 23.7797 5.34767 23.168 5.04415C21.8883 4.39376 21.0305 2.93399 21.0234 1.40919C21.0164 0.52755 20.707 0.166222 19.8773 0.0650482C19.2727 -0.00721741 16.7203 7.62939e-06 16.1648 0.0722733ZM19.357 7.98536C24.6234 8.69356 28.5398 13.4848 28.3148 18.9336C28.2516 20.4656 27.907 21.8387 27.225 23.2551L26.9016 23.9272L24.6586 21.6219L22.4156 19.3166L22.5914 18.7385C23.6883 15.183 21.7125 11.4324 18.1969 10.4063C17.4445 10.1822 16.1086 10.1316 15.3281 10.2979C14.6039 10.4496 14.5195 10.493 14.3719 10.782C14.1258 11.2662 14.1961 11.3674 15.968 13.1957L17.5922 14.8723L17.55 15.1541C17.5289 15.3059 17.4797 15.7033 17.4375 16.043C17.3953 16.3826 17.325 16.8379 17.2758 17.0547L17.1914 17.4522L16.8047 17.5389C16.0594 17.7123 14.8219 17.8424 14.6672 17.7629C14.5828 17.7195 13.8094 16.9608 12.9375 16.0719C11.3625 14.4676 11.3484 14.4531 11.0461 14.4531C10.5609 14.4531 10.3852 14.6916 10.2305 15.566C9.71719 18.5 11.1867 21.434 13.7953 22.6842C15.2367 23.3779 16.9312 23.4936 18.443 23.0022L19.0055 22.8215L21.2484 25.1268C22.4789 26.3914 23.4844 27.4465 23.4844 27.4754C23.4844 27.5621 21.9867 28.3065 21.3539 28.5377C17.6273 29.8818 13.3242 28.8123 10.582 25.8639C6.98203 21.9977 6.69375 16.1947 9.88594 11.96C12.1078 9.01153 15.7219 7.49395 19.357 7.98536Z" fill="#C92727"/>
-</g>
-<defs>
-<clipPath id="clip0_33_219">
-<rect width="36" height="37" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-      <div>
-        <p class="text-white text-[16px] font-bold">Services</p>
-        <p class="text-[#A7A7A7] text-[14px] font-[500]">In-store shopping • Delivery</p>
-      </div>
-    </div>
-
-    <div class="hidden md:block h-10 w-px bg-gray-700"></div>
-
-    <div class="flex items-center gap-3 w-full md:w-auto">
-<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.9608 3.12894C13.8866 3.43128 11.9812 4.09925 10.3429 5.08363C6.36318 7.48128 3.75459 11.4118 3.12881 15.961C2.98115 17.0227 2.98115 18.9844 3.12881 20.0391C3.58584 23.3227 5.04834 26.2758 7.38975 28.6172C9.73115 30.9586 12.6421 32.4 15.996 32.8711C16.9452 33.0118 19.0476 33.0047 20.053 32.8641C26.7187 31.95 31.9569 26.7118 32.871 20.0391C33.0187 18.9774 33.0187 17.0157 32.871 15.961C32.414 12.6774 30.9515 9.72425 28.6101 7.38988C26.2757 5.0555 23.3226 3.57894 20.053 3.13597C19.0968 3.00237 16.8397 2.99534 15.9608 3.12894ZM13.1905 10.4203C13.5491 10.6875 16.0382 13.1766 16.1437 13.3735C16.3616 13.7953 16.221 14.0766 15.2226 15.1875C14.8921 15.5532 14.6249 15.8836 14.6249 15.9258C14.6249 16.0524 15.2155 17.0508 15.6585 17.6625C16.2069 18.436 17.2757 19.5469 17.9577 20.0532C18.5062 20.461 19.9827 21.375 20.0952 21.375C20.1304 21.375 20.3765 21.1782 20.6437 20.9321C20.9108 20.693 21.2905 20.3625 21.4874 20.2008C22.3171 19.5118 22.4366 19.561 24.1593 21.3258C24.8835 22.0711 25.5304 22.7672 25.6077 22.8868C25.8187 23.2383 25.7765 23.5758 25.439 24.068C24.6304 25.2563 23.6038 25.7414 21.8671 25.7414C20.1655 25.7414 18.3655 24.9399 16.3546 23.2875C15.6022 22.6688 13.5843 20.6368 12.7827 19.6875C11.6858 18.3867 10.814 16.875 10.4624 15.6446C10.3218 15.1664 10.3007 14.9274 10.3077 14.0274C10.3077 13.0852 10.3288 12.9164 10.4976 12.4032C10.7507 11.6368 11.1304 11.1305 11.7983 10.6524C12.2624 10.3219 12.389 10.2727 12.6632 10.2657C12.8882 10.2657 13.0499 10.3149 13.1905 10.4203Z" fill="#C92727"/>
-</svg>
-      <div>
-        <p class="text-white text-[16px] font-bold">Contact</p>
-        <p class="text-[#A7A7A7] text-[14px] font-[500]">+91 7373226888</p>
-      </div>
-    </div>
-
-  </div>
-
-</section>
-
-<section class="relative bg-black py-20 overflow-hidden" id="about"  data-aos="fade-up">
-
-   <div class="absolute inset-0 overflow-hidden">
-
-<div class="absolute left-[-150px] top-[-150px] w-[500px] h-[500px] 
+      <div class="absolute left-[-150px] top-[-150px] w-[500px] h-[500px] 
 bg-[#B1972D] opacity-20 rounded-full blur-[180px]"></div>
 
-<div class="absolute right-[-150px] bottom-[-150px] w-[500px] h-[500px] 
+      <div class="absolute right-[-150px] bottom-[-150px] w-[500px] h-[500px] 
 bg-[#B1972D] opacity-20 rounded-full blur-[180px]"></div>
-   </div>
+    </div>
 
-<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 px-5 md:px-10">
-<div class="relative 
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 px-5 md:px-10">
+      <div class="relative 
             w-[260px] sm:w-[300px] md:w-[350px] 
             h-[260px] sm:h-[320px] md:h-[380px] 
             mx-auto">
 
-  <!-- 🔴 SKEW BACKGROUND (ALL SCREENS) -->
-  <div class="absolute inset-0 rounded-2xl overflow-hidden 
+        <!-- 🔴 SKEW BACKGROUND (ALL SCREENS) -->
+        <div class="absolute inset-0 rounded-2xl overflow-hidden 
               transform skew-x-[-12deg]">
 
-    <!-- BG -->
-    <div class="absolute inset-0 bg-center bg-cover"
-         style="background-image: url('./assets/images/bgcard.png');">
-    </div>
+          <!-- BG -->
+          <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('./assets/images/bgcard.png');">
+          </div>
 
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/20"></div>
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black/20"></div>
 
-  </div>
+        </div>
 
-  <!-- 🚲 BIKE IMAGE -->
-  <img src="./assets/images/bikeabout.png"
-       class="absolute 
+        <!-- 🚲 BIKE IMAGE -->
+        <img src="./assets/images/bikeabout.png" class="absolute 
               bottom-[-10px] sm:bottom-[-15px] md:bottom-[-20px]
               left-1/2 -translate-x-1/2 md:left-[-20px] md:translate-x-0
               w-[100%] sm:w-[110%] md:w-[120%]
               max-w-none z-20 bike-float" />
-              
-
-</div>
 
 
-    <div class="max-w-[612px] lg:ml-[-90px]">
+      </div>
 
-      <h2 class="text-[#FAD028] font-semibold text-[24px]  font-kumbh text-center lg:text-left">
-        About RKM Motors
-      </h2>
 
-      <h3 class="text-[#C1B2B2] font-[500] text-[16px] mb-4 font-kumbh text-center lg:text-left" >
-        Your Trusted Honda Bike Showroom in Anthiyur
-      </h3>
+      <div class="max-w-[612px] lg:ml-[-90px]">
 
-      <p class="text-[#C1B2B2] text-[16px] leading-relaxed font-kumbh">
-        RKM Motors is an authorized Honda two-wheeler showroom located in Anthiyur, Tamil Nadu,
-        dedicated to delivering quality, trust and customer satisfaction. With a strong reputation
-        and a growing base of happy customers, we provide a wide range of Honda bikes designed for
-        performance, comfort and style.
-      </p>
-<div class="grid grid-cols-2 gap-y-4 gap-x-10 mt-6 text-white font-kumbh text-[14px]">
+        <h2 class="text-[#FAD028] font-semibold text-[24px]  font-kumbh text-center lg:text-left">
+          About Rkm Honda
+        </h2>
 
-  <div class="flex items-center gap-2">
-    <span class="text-red-500"><svg width="17" height="18" viewBox="0 0 17 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z" fill="#ef4444"/>
-</svg>
-</span>
-    <p>Bike servicing & maintenance</p>
-  </div>
+        <h3 class="text-[#C1B2B2] font-[500] text-[16px] mb-4 font-kumbh text-center lg:text-left">
+          Your Trusted Honda Bike Showroom in Bhavani
+        </h3>
 
-  <div class="flex items-center gap-2">
-    <span class="text-[#FAD028]"><svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z" fill="#ef4444"/>
-</svg>
-</span>
-    <p>Easy EMI & finance</p>
-  </div>
+        <p class="text-[#C1B2B2] text-[16px] leading-relaxed font-kumbh">
+          Rkm Honda is an authorized Honda two-wheeler showroom located in Bhavani, Tamil Nadu,
+          dedicated to delivering quality, trust and customer satisfaction. With a strong reputation
+          and a growing base of happy customers, we provide a wide range of Honda bikes designed for
+          performance, comfort and style.
+        </p>
+        <div class="grid grid-cols-2 gap-y-4 gap-x-10 mt-6 text-white font-kumbh text-[14px]">
 
-  <div class="flex items-center gap-2">
-    <span class="text-[#FAD028]"><svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z" fill="#ef4444"/>
-</svg>
-</span>
-    <p>Delivery & In-store Purchase Available</p>
-  </div>
+          <div class="flex items-center gap-2">
+            <span class="text-red-500"><svg width="17" height="18" viewBox="0 0 17 18" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z"
+                  fill="#ef4444" />
+              </svg>
+            </span>
+            <p>Bike servicing & maintenance</p>
+          </div>
 
-  <div class="flex items-center gap-2">
-    <span class="text-[#FAD028]"><svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z" fill="#ef4444"/>
-</svg>
-</span>
-    <p>Insurance assistance</p>
-  </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#FAD028] "><svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z"
+                  fill="#ef4444" />
+              </svg>
+            </span>
+            <p>Easy EMI & finance</p>
+          </div>
 
-</div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#FAD028]"><svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z"
+                  fill="#ef4444" />
+              </svg>
+            </span>
+            <p>Delivery & In-store Purchase Available</p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span class="text-[#FAD028]"><svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.14549 0.0645096C8.03947 0.101069 7.88957 0.1815 7.81646 0.239995C7.74334 0.29849 7.37043 0.733547 6.99387 1.20516C6.61731 1.67678 6.2773 2.07528 6.24074 2.0899C6.19687 2.11184 5.86053 2.03506 5.20977 1.85592C4.60654 1.6914 4.14589 1.58538 3.98503 1.57441C3.47685 1.54151 3.1405 1.69872 2.96867 2.04969C2.86265 2.26904 2.82975 2.56883 2.77125 3.99099C2.74932 4.50648 2.72738 4.68928 2.68717 4.72949C2.65792 4.75874 2.16802 4.96347 1.59404 5.18649C1.02006 5.4095 0.489944 5.63251 0.416825 5.68004C0.0402627 5.92864 -0.102319 6.41854 0.0768221 6.8536C0.102414 6.91209 0.394889 7.38371 0.731236 7.8992C1.11511 8.49146 1.33812 8.86802 1.33812 8.92652C1.33812 8.98136 1.21016 9.21168 1.0164 9.50781C0.508224 10.2756 0.135317 10.8715 0.0768221 11.0141C0.0110151 11.1676 0.00735919 11.504 0.0658543 11.7014C0.117038 11.8805 0.351018 12.1511 0.530159 12.2388C0.603278 12.2754 1.1078 12.4728 1.64888 12.6812C2.19361 12.8859 2.66157 13.0833 2.69813 13.1162C2.74566 13.1638 2.7676 13.3392 2.81512 14.107C2.84803 14.6188 2.87362 15.1233 2.87362 15.2257C2.87362 15.6352 3.10029 16.0264 3.43663 16.1982C3.71449 16.3408 3.99599 16.3298 4.57729 16.1616C5.36332 15.9313 6.1859 15.7156 6.26634 15.7156C6.32117 15.7156 6.54784 15.9715 7.0743 16.6223C7.8457 17.5874 7.98828 17.7191 8.32098 17.7995C8.56592 17.858 8.8584 17.7958 9.06313 17.6386C9.14722 17.5765 9.54206 17.1195 9.9369 16.6296C10.3866 16.0739 10.69 15.7302 10.7339 15.7229C10.7778 15.7156 11.275 15.8363 11.8416 15.9935C12.7045 16.2311 12.9165 16.2786 13.1468 16.2786C13.4503 16.2786 13.6294 16.2092 13.8195 16.0227C14.0718 15.7668 14.1047 15.595 14.1741 14.107C14.207 13.405 14.229 13.1601 14.2692 13.1162C14.2984 13.0833 14.463 13.0029 14.6384 12.9371C15.7389 12.524 16.2946 12.2936 16.4628 12.1803C16.9198 11.8732 17.0587 11.3212 16.8064 10.824C16.7699 10.7508 16.481 10.2938 16.1666 9.81126C15.8522 9.32867 15.5963 8.89727 15.5963 8.8534C15.5963 8.80953 15.8522 8.38178 16.1666 7.90285C16.8576 6.84994 16.9271 6.71467 16.9271 6.39295C16.9271 6.06026 16.8028 5.84456 16.4701 5.59595C16.4372 5.57036 15.9363 5.36928 15.355 5.14993C14.7737 4.92692 14.2729 4.71853 14.2399 4.68562C14.1888 4.63078 14.1705 4.47723 14.1339 3.74239C14.0608 2.23248 14.0279 2.04969 13.7647 1.79012C13.5819 1.60732 13.3918 1.53054 13.0956 1.53054C12.8324 1.53054 12.635 1.57441 11.3481 1.93635C10.8399 2.07893 10.6827 2.11184 10.6279 2.07893C10.5877 2.057 10.2952 1.717 9.97712 1.3185C9.20206 0.353329 8.9827 0.126661 8.72679 0.0535418C8.47453 -0.0195771 8.38678 -0.0195771 8.14549 0.0645096ZM11.615 6.22112C11.8453 6.34177 12.0135 6.60134 12.0135 6.83532C12.0135 6.93768 11.9915 7.0693 11.9623 7.13511C11.933 7.20091 10.9898 8.16974 9.74314 9.41641C7.88226 11.2663 7.54957 11.5844 7.42527 11.6173C7.01946 11.727 6.93172 11.6685 5.86418 10.6046C4.80396 9.54437 4.74181 9.44566 4.84783 9.05448C4.96116 8.65598 5.42912 8.44028 5.82762 8.60479C5.90805 8.64135 6.20053 8.90093 6.5844 9.28114L7.20591 9.90265L9.01561 8.08931C10.01 7.09489 10.8838 6.24671 10.9533 6.21015C11.1361 6.11144 11.4139 6.1151 11.615 6.22112Z"
+                  fill="#ef4444" />
+              </svg>
+            </span>
+            <p>Insurance assistance</p>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
-  </div>
+  </section>
+  <section class="relative bg-black py-20 overflow-hidden" data-aos="fade-up">
 
-</section>
-<section class="relative bg-black py-20 overflow-hidden" data-aos="fade-up">
-
-  <div class="absolute inset-0 opacity-15"
-       style="
+    <div class="absolute inset-0 opacity-15" style="
          background-image: repeating-linear-gradient(
            90deg,
            #C11515 0px,
@@ -440,406 +455,422 @@ bg-[#B1972D] opacity-20 rounded-full blur-[180px]"></div>
            transparent 40px
          );
        ">
-  </div>
-  <div class="text-center mb-12">
-    <h2 class="text-white text-[28px] font-semibold font-kumbh">
-      Explore Honda Bikes
-    </h2>
-  </div>
-
-  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
-
-    <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
-
-      <img src="./assets/images/honda1.png"
-           class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-
-
-      <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-
-      <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
-
-        <div>
-          <h3 class="text-white text-lg font-semibold font-kanit">Commuter</h3>
-          <p class="text-gray-200 text-sm  font-kumbh">Daily Ride Bikes</p>
-        </div>
-
-        <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
-          Explore
-        </button>
-
-      </div>
-
     </div>
-
-
-    <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
-
-      <img src="./assets/images/honda2.png"
-           class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-
-      <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-
-      <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
-
-        <div>
-          <h3 class="text-white text-lg font-semibold font-kanit">Sports</h3>
-          <p class="text-gray-200 text-sm">Performance Bikes</p>
-        </div>
- <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
-          Explore
-        </button>
-
-      </div>
-
-    </div>
-
-
-    <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
-
-      <img src="./assets/images/honda3.png"
-           class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
-
-      <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-
-      <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
-
-        <div>
-          <h3 class="text-white text-lg font-semibold font-kanit">Scooter</h3>
-          <p class="text-gray-200 text-sm">City Ride</p>
-        </div>
-
-      <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
-          Explore
-        </button>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<section class="bg-black py-14 sm:py-16 md:py-20 relative overflow-hidden" id="service" data-aos="fade-up">
-<div class="hidden lg:block absolute left-0 right-0 top-[150px] h-[105px] bg-[#131313]"></div>
-<div class="max-w-7xl mx-auto px-5 md:px-10 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-16 relative z-10">
-<div class="max-w-[600px] text-center lg:text-left">
-      <p class="text-[#FFFFFF] text-[16px] mb-2 font-kumbh">
-        Showroom Experience
-      </p>
-
-      <h2 class="text-yellow-400 text-[24px] font-semibold mb-4 font-kanit">
-        Experience Our Showroom
+    <div class="text-center mb-12">
+      <h2 class="text-white text-[28px] font-semibold font-kumbh">
+        Explore Honda Bikes
       </h2>
+    </div>
 
-      <p class="text-gray-400 text-[16px] leading-relaxed mb-8 max-w-[520px] font-kumbh">
-        Step into our showroom and explore a wide range of Honda bikes in a clean and well-organized space. Our friendly team is always ready to assist you, making your visit informative and enjoyable.
-      </p>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
-        <div class="flex gap-3">
-<svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771"/><polyline points="5.75 7.75 8.25 10.25 14.25 3.75"/></g></svg>
+      <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
+
+        <img src="./assets/images/honda1.png"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+
+        <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
 
           <div>
-            <h4 class="text-white text-[16px] font-bold font-kumbha">Walk-in Experience</h4>
-            <p class="text-gray-400 text-[14px] font-kumbha">
-              Enjoy a clean, spacious showroom where you can explore bikes comfortably.
-            </p>
+            <h3 class="text-white text-lg font-semibold font-kanit">Commuter</h3>
+            <p class="text-gray-200 text-sm  font-kumbh">Daily Ride Bikes</p>
           </div>
+
+          <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
+            Explore
+          </button>
+
         </div>
 
-        <div class="flex gap-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771"/><polyline points="5.75 7.75 8.25 10.25 14.25 3.75"/></g></svg>
+      </div>
+
+
+      <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
+
+        <img src="./assets/images/honda2.png"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+
+        <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
 
           <div>
-            <h4 class="text-white text-[16px] font-bold font-kumbha">Wide Range Display</h4>
-            <p class="text-gray-400 text-[14px] font-kumbha">
-              Check out the latest Honda bikes, from commuter models to premium options.
-            </p>
+            <h3 class="text-white text-lg font-semibold font-kanit">Sports</h3>
+            <p class="text-gray-200 text-sm">Performance Bikes</p>
           </div>
+          <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
+            Explore
+          </button>
+
         </div>
 
-        <div class="flex gap-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771"/><polyline points="5.75 7.75 8.25 10.25 14.25 3.75"/></g></svg>
+      </div>
+
+
+      <div class="relative h-[350px] rounded-2xl overflow-hidden group cursor-pointer bg-[] border border-red-500">
+
+        <img src="./assets/images/honda3.png"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+
+        <div class="absolute bottom-5 left-5 right-5 flex justify-between items-end">
 
           <div>
-            <h4 class="text-white text-sm font-semibold">Expert Assistance</h4>
-            <p class="text-gray-400 text-xs">
-              Our team provides friendly guidance to help you choose the right bike.
-            </p>
+            <h3 class="text-white text-lg font-semibold font-kanit">Scooter</h3>
+            <p class="text-gray-200 text-sm">City Ride</p>
           </div>
-        </div>
 
-        <div class="flex gap-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771"/><polyline points="5.75 7.75 8.25 10.25 14.25 3.75"/></g></svg>
+          <button class="bg-[#C11515] text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-200 transition font-kumbh">
+            Explore
+          </button>
 
-          <div>
-            <h4 class="text-white text-sm font-semibold">Quick Support</h4>
-            <p class="text-gray-400 text-xs">
-              Get fast responses for queries, pricing, and test ride bookings.
-            </p>
-          </div>
         </div>
 
       </div>
 
     </div>
 
+  </section>
 
-    <div class="relative mb-[-100px]">
+  <section class="bg-black py-14 sm:py-16 md:py-20 relative overflow-hidden" id="service" data-aos="fade-up">
+    <div class="hidden lg:block absolute left-0 right-0 top-[150px] h-[105px] bg-[#131313]"></div>
+    <div
+      class="max-w-7xl mx-auto px-5 md:px-10 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-16 relative z-10">
+      <div class="max-w-[600px] text-center lg:text-left">
+        <p class="text-[#FFFFFF] text-[16px] mb-2 font-kumbh">
+          Showroom Experience
+        </p>
 
-      <img src="./assets/images/showroominside.png"
-           class="w-[420px] rounded-2xl shadow-2xl " />
+        <h2 class="text-yellow-400 text-[24px] font-semibold mb-4 font-kanit">
+          Experience Our Showroom
+        </h2>
 
-    </div>
+        <p class="text-gray-400 text-[16px] leading-relaxed mb-8 max-w-[520px] font-kumbh">
+          Step into our showroom and explore a wide range of Honda bikes in a clean and well-organized space. Our
+          friendly team is always ready to assist you, making your visit informative and enjoyable.
+        </p>
 
-  </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+          <div class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+              <g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path
+                  d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771" />
+                <polyline points="5.75 7.75 8.25 10.25 14.25 3.75" />
+              </g>
+            </svg>
 
-</section>
+            <div>
+              <h4 class="text-white text-[16px] font-bold font-kumbha">Walk-in Experience</h4>
+              <p class="text-gray-400 text-[14px] font-kumbha">
+                Enjoy a clean, spacious showroom where you can explore bikes comfortably.
+              </p>
+            </div>
+          </div>
 
-<section class="hidden lg:block bg-black py-20 overflow-hidden" data-aos="fade-up">
+          <div class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+              <g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path
+                  d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771" />
+                <polyline points="5.75 7.75 8.25 10.25 14.25 3.75" />
+              </g>
+            </svg>
 
-  <div class="max-w-7xl mx-auto px-10 flex items-center gap-12">
+            <div>
+              <h4 class="text-white text-[16px] font-bold font-kumbha">Wide Range Display</h4>
+              <p class="text-gray-400 text-[14px] font-kumbha">
+                Check out the latest Honda bikes, from commuter models to premium options.
+              </p>
+            </div>
+          </div>
 
-    <div class="relative w-[450px] h-[420px]">
+          <div class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+              <g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path
+                  d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771" />
+                <polyline points="5.75 7.75 8.25 10.25 14.25 3.75" />
+              </g>
+            </svg>
 
-      <div class="absolute inset-0 rounded-2xl overflow-hidden transform skew-x-[-12deg]">
+            <div>
+              <h4 class="text-white text-[16px] font-semibold">Expert Assistance</h4>
+              <p class="text-gray-400 text-[14px]">
+                Our team provides friendly guidance to help you choose the right bike.
+              </p>
+            </div>
+          </div>
 
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
+          <div class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+              <g fill="none" stroke="#df0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path
+                  d="m14.25 8.75c-.5 2.5-2.3849 4.85363-5.03069 5.37991-2.64578.5263-5.33066-.7044-6.65903-3.0523-1.32837-2.34784-1.00043-5.28307.81336-7.27989 1.81379-1.99683 4.87636-2.54771 7.37636-1.54771" />
+                <polyline points="5.75 7.75 8.25 10.25 14.25 3.75" />
+              </g>
+            </svg>
 
-      </div>
-
-      <img src="./assets/images/b1.png"
-           class="absolute bottom-0 left-[20px] w-[300px] z-20" />
-
-    </div>
-
-
-    <div class="flex-1">
-
-      <h3 class="text-white text-[20px] font-semibold mb-2 font-kumbh ml-5">
-        Showroom Experience
-      </h3>
-
-      <p class="text-[#989897] text-[16px] leading-relaxed mb-8 max-w-[674px] font-kumbh ml-5">
-Enjoy a smooth and interactive showroom experience where you can closely inspect every bike, compare models, and get expert recommendations tailored to your needs. From your first visit to final delivery, we ensure a comfortable and hassle-free journey.      </p>
-
-      <div class="flex gap-6">
-
-        <div class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
-   <div class="absolute inset-0 rounded-2xl overflow-hidden">
-
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
-
-      </div>
-
-          <img src="./assets/images/b2.png"
-               class="w-[201px] object-contain transform skew-x-[10deg]" />
+            <div>
+              <h4 class="text-white text-[16px] font-semibold">Quick Support</h4>
+              <p class="text-gray-400 text-[14px]">
+                Get fast responses for queries, pricing, and test ride bookings.
+              </p>
+            </div>
+          </div>
 
         </div>
+
+      </div>
+
+
+      <div class="relative mb-[-100px]">
+
+        <img src="./assets/images/showroominside.png" class="w-[420px] rounded-2xl shadow-2xl " />
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="hidden lg:block bg-black py-20 overflow-hidden" data-aos="fade-up">
+
+    <div class="max-w-7xl mx-auto px-10 flex items-center gap-12">
+
+      <div class="relative w-[450px] h-[420px]">
+
+        <div class="absolute inset-0 rounded-2xl overflow-hidden transform skew-x-[-12deg]">
+
+          <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+
+        </div>
+
+        <img src="./assets/images/b1.png" class="absolute bottom-0 left-[20px] w-[300px] z-20" />
+
+      </div>
+
+
+      <div class="flex-1">
+
+        <h3 class="text-white text-[20px] font-semibold mb-2 font-kumbh ml-5">
+          Showroom Experience
+        </h3>
+
+        <p class="text-[#989897] text-[16px] leading-relaxed mb-8 max-w-[674px] font-kumbh ml-5">
+          Enjoy a smooth and interactive showroom experience where you can closely inspect every bike, compare models,
+          and get expert recommendations tailored to your needs. From your first visit to final delivery, we ensure a
+          comfortable and hassle-free journey. </p>
 
         <div class="flex gap-6">
 
-        <div class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
-   <div class="absolute inset-0 rounded-2xl overflow-hidden">
+          <div
+            class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
+            <div class="absolute inset-0 rounded-2xl overflow-hidden">
 
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
+              <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
 
-      </div>
+            </div>
 
-          <img src="./assets/images/b3.png"
-               class="w-[201px] object-contain transform skew-x-[10deg]" />
+            <img src="./assets/images/b2.png" class="w-[201px] object-contain transform skew-x-[10deg]" />
+
+          </div>
+
+          <div class="flex gap-6">
+
+            <div
+              class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
+              <div class="absolute inset-0 rounded-2xl overflow-hidden">
+
+                <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+
+              </div>
+
+              <img src="./assets/images/b3.png" class="w-[201px] object-contain transform skew-x-[10deg]" />
+
+            </div>
+
+            <div
+              class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
+              <div class="absolute inset-0 rounded-2xl overflow-hidden">
+
+                <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+
+              </div>
+
+              <img src="./assets/images/b4.png" class="w-[400px] object-contain transform skew-x-[10deg]" />
+
+            </div>
+
+          </div>
 
         </div>
 
-        <div class="w-[250px] h-[272px] bg-[#2A2A2A] rounded-xl flex items-center justify-center transform skew-x-[-10deg]">
-   <div class="absolute inset-0 rounded-2xl overflow-hidden">
-
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
-
       </div>
 
-          <img src="./assets/images/b4.png"
-               class="w-[400px] object-contain transform skew-x-[10deg]" />
+  </section>
+  <section class="block lg:hidden bg-black py-12 px-5 text-white" data-aos="fade-up">
 
+    <!-- 🔥 ROW 1 (IMAGE + TEXT) -->
+    <div class="flex items-center gap-4 mb-10">
+
+      <!-- BIG IMAGE -->
+      <div class="relative w-1/2 h-[180px]">
+
+        <div class="absolute inset-0 rounded-xl overflow-hidden transform skew-x-[-10deg]">
+          <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
         </div>
 
+        <img src="./assets/images/b1.png" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[140px] z-20" />
+
       </div>
 
-    </div>
+      <!-- TEXT -->
+      <div class="w-1/2">
 
-  </div>
+        <h3 class="text-[16px] font-semibold font-kumbh mb-2">
+          Showroom Experience
+        </h3>
 
-</section>
-<section class="block lg:hidden bg-black py-12 px-5 text-white" data-aos="fade-up">
-
-  <!-- 🔥 ROW 1 (IMAGE + TEXT) -->
-  <div class="flex items-center gap-4 mb-10">
-
-    <!-- BIG IMAGE -->
-    <div class="relative w-1/2 h-[180px]">
-
-      <div class="absolute inset-0 rounded-xl overflow-hidden transform skew-x-[-10deg]">
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <img src="./assets/images/b1.png"
-           class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[140px] z-20" />
-
-    </div>
-
-    <!-- TEXT -->
-    <div class="w-1/2">
-
-      <h3 class="text-[16px] font-semibold font-kumbh mb-2">
-        Showroom Experience
-      </h3>
-
-      <p class="text-gray-400 text-xs leading-relaxed">
-        Enjoy a smooth and interactive showroom experience where you can closely inspect every bike and compare models easily.
-      </p>
-
-    </div>
-
-  </div>
-
-
-  <!-- 🔥 ROW 2 (2 CARDS) -->
-  <div class="grid grid-cols-2 gap-4 mb-6">
-
-    <!-- CARD 1 -->
-    <div class="relative h-[140px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
-
-      <div class="absolute inset-0">
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <div class="flex items-center justify-center h-full">
-        <img src="./assets/images/b2.png"
-             class="w-[120px] transform skew-x-[10deg]" />
-      </div>
-
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="relative h-[140px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
-
-      <div class="absolute inset-0">
-        <img src="./assets/images/bgcard.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <div class="flex items-center justify-center h-full">
-        <img src="./assets/images/b3.png"
-             class="w-[120px] transform skew-x-[10deg]" />
-      </div>
-
-    </div>
-
-  </div>
-
-
-<div class="flex justify-center">
-
-  <div class="relative w-1/2 h-[160px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
-
-    <div class="absolute inset-0">
-      <img src="./assets/images/bgcard.png"
-           class="w-full h-full object-cover" />
-    </div>
-
-    <div class="flex items-center justify-center h-full">
-      <img src="./assets/images/b4.png"
-           class="w-[140px] transform skew-x-[10deg]" />
-    </div>
-
-  </div>
-
-</div>
-
-</section>
-<section class="bg-black py-10 md:py-20 px-6 md:px-16 relative" data-aos="fade-up">
-<img src="./assets/images/redbg.png"
-     class="absolute right-0 top-[45px] opacity-20 lg:opacity-100   lg:top-1/2 -translate-y-1/2 
-            w-[300px] md:w-[350px] lg:w-[500px] 
-             pointer-events-none select-none object-contain" />
-
-  <div class="mb-10">
-    <h2 class="text-yellow-400 font-semibold text-[24px] font-kumbh text-center lg:text-left">
-      Services & Support
-    </h2>
-    <p class="text-gray-400 text-[20px] font-kumbh  text-center lg:text-left">
-      Complete care for your bike
-    </p>
-  </div>
-
-  <!-- GRID -->
-  <div class="grid md:grid-cols-2 items-center gap-6">
-
-    <!-- 🔴 BIG CARD -->
-    <div>
-      <div class="bg-[#2A2A2A] rounded-2xl px-6 md:px-8 py-8 md:py-[50px]
-                  text-gray-300 shadow-lg
-                  md:transform md:skew-x-[-10deg]">
-
-        <p class="text-[16px] md:text-[20px] leading-relaxed font-kumbh">
-          At RKM Motors, we go beyond just selling bikes—we provide complete support
-          to keep your ride smooth and worry-free. From regular maintenance to
-          financial assistance, our services are designed to ensure convenience,
-          reliability, and long-term performance for every customer.
+        <p class="text-gray-400 text-xs leading-relaxed">
+          Enjoy a smooth and interactive showroom experience where you can closely inspect every bike and compare models
+          easily.
         </p>
 
       </div>
+
     </div>
 
 
-    <!-- 🔴 RIGHT SIDE -->
-    <div class="grid grid-cols-2 gap-4 md:flex md:flex-col md:gap-6 md:ml-[-100px]">
+    <!-- 🔥 ROW 2 (2 CARDS) -->
+    <div class="grid grid-cols-2 gap-4 mb-6">
 
       <!-- CARD 1 -->
-      <div class="flex items-center justify-center">
+      <div class="relative h-[140px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
 
-        <div class="bg-[#2A2A2A] rounded-xl p-4 md:p-5 flex gap-3 md:gap-4 items-start
-                    shadow-md
-                    md:transform md:skew-x-[-10deg]">
+        <div class="absolute inset-0">
+          <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+        </div>
 
-          <img class="hidden sm:block" src="./assets/images/scooter.png" class="w-8 h-8 md:w-10 md:h-10" />
-
-          <div>
-            <h3 class="text-white font-bold text-[14px] md:text-[16px] font-kumbh">
-              Bike Servicing & Maintenance
-            </h3>
-            <p class="text-gray-400 text-[12px] md:text-[16px] font-kumbh mt-1 max-w-[403px]">
-Keep your bike in good condition with our servicing. Our team ensures it runs smoothly and safely.            </p>
-          </div>
-
+        <div class="flex items-center justify-center h-full">
+          <img src="./assets/images/b2.png" class="w-[120px] transform skew-x-[10deg]" />
         </div>
 
       </div>
-
 
       <!-- CARD 2 -->
-      <div class="flex items-center justify-center mt-[-15px] md:ml-[-30px] md:mt-0">
+      <div class="relative h-[140px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
 
-        <div class="bg-[#2A2A2A] rounded-xl p-4 md:p-5 flex gap-3 md:gap-4 items-start
+        <div class="absolute inset-0">
+          <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+        </div>
+
+        <div class="flex items-center justify-center h-full">
+          <img src="./assets/images/b3.png" class="w-[120px] transform skew-x-[10deg]" />
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="flex justify-center">
+
+      <div class="relative w-1/2 h-[160px] rounded-xl overflow-hidden transform skew-x-[-10deg]">
+
+        <div class="absolute inset-0">
+          <img src="./assets/images/bgcard.png" class="w-full h-full object-cover" />
+        </div>
+
+        <div class="flex items-center justify-center h-full">
+          <img src="./assets/images/b4.png" class="w-[140px] transform skew-x-[10deg]" />
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="bg-black py-10 md:py-20 px-6 md:px-16 relative" data-aos="fade-up">
+    <img src="./assets/images/redbg.png" class="absolute right-0 top-[45px] opacity-20 lg:opacity-100   lg:top-1/2 -translate-y-1/2 
+            w-[300px] md:w-[350px] lg:w-[500px] 
+             pointer-events-none select-none object-contain" />
+
+    <div class="mb-10">
+      <h2 class="text-yellow-400 font-semibold text-[24px] font-kumbh text-center lg:text-left">
+        Services & Support
+      </h2>
+      <p class="text-gray-400 text-[20px] font-kumbh  text-center lg:text-left">
+        Complete care for your bike
+      </p>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid md:grid-cols-2 items-center gap-6">
+
+      <!-- 🔴 BIG CARD -->
+      <div>
+        <div class="bg-[#2A2A2A] rounded-2xl px-6 md:px-8 py-8 md:py-[50px]
+                  text-gray-300 shadow-lg
+                  md:transform md:skew-x-[-10deg]">
+
+          <p class="text-[16px] md:text-[20px] leading-relaxed font-kumbh">
+            At Rkm Honda, we go beyond just selling bikes—we provide complete support
+            to keep your ride smooth and worry-free. From regular maintenance to
+            financial assistance, our services are designed to ensure convenience,
+            reliability, and long-term performance for every customer.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- 🔴 RIGHT SIDE -->
+      <div class="grid grid-cols-2 gap-4 md:flex md:flex-col md:gap-6 md:ml-[-100px]">
+
+        <!-- CARD 1 -->
+        <div class="flex items-center justify-center">
+
+          <div class="bg-[#2A2A2A] rounded-xl p-4 md:p-5 flex gap-3 md:gap-4 items-start
                     shadow-md
                     md:transform md:skew-x-[-10deg]">
 
-          <img class="hidden sm:block" src="./assets/images/settings.png" class="w-8 h-8 md:w-10 md:h-10" />
+            <img class="hidden sm:block" src="./assets/images/scooter.png" class="w-8 h-8 md:w-10 md:h-10" />
 
-          <div>
-            <h3 class="text-white font-bold text-[14px] md:text-[16px] font-kumbh">
-              Genuine Spare Parts
-            </h3>
-            <p class="text-gray-400 text-[12px] md:text-[16px] font-kumbh mt-1 max-w-[403px]">
-We provide genuine Honda spare parts to keep your bike durable and running smoothly.            </p>
+            <div>
+              <h3 class="text-white font-bold text-[14px] md:text-[16px] font-kumbh">
+                Bike Servicing & Maintenance
+              </h3>
+              <p class="text-gray-400 text-[12px] md:text-[16px] font-kumbh mt-1 max-w-[403px]">
+                Keep your bike in good condition with our servicing. Our team ensures it runs smoothly and safely. </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="flex items-center justify-center mt-[-15px] md:ml-[-30px] md:mt-0">
+
+          <div class="bg-[#2A2A2A] rounded-xl p-4 md:p-5 flex gap-3 md:gap-4 items-start
+                    shadow-md
+                    md:transform md:skew-x-[-10deg]">
+
+            <img class="hidden sm:block" src="./assets/images/settings.png" class="w-8 h-8 md:w-10 md:h-10" />
+
+            <div>
+              <h3 class="text-white font-bold text-[14px] md:text-[16px] font-kumbh">
+                Genuine Spare Parts
+              </h3>
+              <p class="text-gray-400 text-[12px] md:text-[16px] font-kumbh mt-1 max-w-[403px]">
+                We provide genuine Honda spare parts to keep your bike durable and running smoothly. </p>
+            </div>
+
           </div>
 
         </div>
@@ -848,450 +879,470 @@ We provide genuine Honda spare parts to keep your bike durable and running smoot
 
     </div>
 
-  </div>
+  </section>
+  <section class="bg-black py-5 md:py-20 px-4 sm:px-6" id="gallery" data-aos="fade-up">
 
-</section>
-<section class="bg-black py-5 md:py-20 px-4 sm:px-6" id="gallery" data-aos="fade-up">
-
-  <!-- 🔥 HEADING -->
-  <div class="text-center mb-8 md:mb-10">
-    <h2 class="text-[#FAD028] text-[24px] sm:text-[28px] md:text-[36px] font-semibold font-kumbh">
-      Our Gallery
-    </h2>
-
-    <p class="text-gray-400 text-[14px] sm:text-[16px] md:text-[18px] mt-2 font-kumbh">
-      Explore our showroom moments and latest collections
-    </p>
-  </div>
-
-  <!-- 🔥 MASONRY GRID -->
-  <div class="max-w-6xl mx-auto columns-1 sm:columns-2 md:columns-3 gap-4">
-
-    <!-- IMAGE -->
-    <img src="./assets/images/honda.jpg" onclick="openModal(0)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-    <img src="./assets/images/honda.jpg" onclick="openModal(1)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-    <img src="./assets/images/honda.jpg" onclick="openModal(2)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-    <img src="./assets/images/honda.jpg" onclick="openModal(3)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-    <img src="./assets/images/honda.jpg" onclick="openModal(4)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-    <img src="./assets/images/honda.jpg" onclick="openModal(5)"
-         class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300"/>
-
-  </div>
-
-
-  <!-- 🔥 MODAL -->
-  <div id="modal"
-       class="fixed inset-0 bg-black/95 hidden items-center justify-center z-50">
-
-    <!-- CLOSE -->
-    <span onclick="closeModal()"
-          class="absolute top-4 right-5 sm:top-6 sm:right-8 text-white text-3xl sm:text-4xl cursor-pointer z-50">
-      &times;
-    </span>
-
-    <!-- PREV -->
-    <button onclick="prevImage()"
-            class="absolute left-2 sm:left-5 text-white text-2xl sm:text-3xl px-3 py-2 bg-white/10 rounded-full hover:bg-white/20">
-      &#10094;
-    </button>
-
-    <!-- IMAGE -->
-    <img id="modalImg"
-         class="max-w-[95%] sm:max-w-[90%] max-h-[70vh] sm:max-h-[80vh] rounded-xl shadow-lg" />
-
-    <!-- NEXT -->
-    <button onclick="nextImage()"
-            class="absolute right-2 sm:right-5 text-white text-2xl sm:text-3xl px-3 py-2 bg-white/10 rounded-full hover:bg-white/20">
-      &#10095;
-    </button>
-
-  </div>
-
-</section>
-
-<section class="bg-[#151515] py-10 md:py-20 px-6 md:px-16 " id="contact" data-aos="fade-up" data-aos-delay="200"
->
-  <div class="w-full mx-auto">
-  <div class="grid md:grid-cols-2 gap-10 lg:gap-[170px] items-start ">
-
-    <div class="lg:pl-[45px]">
-
-      <p class="text-gray-400 text-sm mb-2 font-kumbh text-center lg:text-left">Contact us</p>
-
-      <h2 class="text-yellow-400 text-[28px] font-semibold leading-snug mb-8 font-kumbh text-center lg:text-left max-w-[340px]">
-      We are always here to help you — find us anytime.
+    <!-- 🔥 HEADING -->
+    <div class="text-center mb-8 md:mb-10">
+      <h2 class="text-[#FAD028] text-[24px] sm:text-[28px] md:text-[36px] font-semibold font-kumbh">
+        Our Gallery
       </h2>
 
-     <div class="rounded-[16px] overflow-hidden mb-6">
+      <p class="text-gray-400 text-[14px] sm:text-[16px] md:text-[18px] mt-2 font-kumbh">
+        Explore our showroom moments and latest collections
+      </p>
+    </div>
 
-  <iframe
-  src="https://www.google.com/maps?q=11.4562624,77.6906908&z=17&output=embed"    class="w-full h-[250px] border-0"
-    allowfullscreen=""
-    loading="lazy">
-  </iframe>
+    <!-- 🔥 MASONRY GRID -->
+    <div class="max-w-6xl mx-auto columns-1 sm:columns-2 md:columns-3 gap-4">
 
-</div>
+      <!-- IMAGE -->
+      <img src="./assets/images/honda.jpg" onclick="openModal(0)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="flex items-center gap-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24"><path fill="#C92727" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>          <div>
-            <p class="text-white text-[14px] font-semibold">Location</p>
-            <p class="text-gray-400 text-[13px]">Bhavani, Tamil Nadu</p>
-          </div>
-        </div>
+      <img src="./assets/images/honda.jpg" onclick="openModal(1)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
 
-        <div class="flex items-center gap-3">
-<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_99_845)">
-<path d="M8.98047 0.0410862C8.5625 0.0985069 8.4375 0.262569 8.39453 0.81218C8.35938 1.21823 8.28906 1.49714 8.14062 1.80886C7.88281 2.35027 7.37109 2.79323 6.81641 2.9573C6.50781 3.04753 5.89453 3.03112 5.55859 2.92038C5.26562 2.82605 4.79297 2.52253 4.58984 2.30105C4.44531 2.13698 4.23047 2.07546 4.02734 2.13288C3.82422 2.1903 3.36328 2.58816 2.83203 3.16237C2.26562 3.77761 2.10938 3.98269 2.08203 4.15905C2.04297 4.42566 2.09766 4.56921 2.36328 4.88093C3.01953 5.64792 3.14062 6.62409 2.69531 7.54694C2.55469 7.84226 2.08594 8.29343 1.75391 8.46159C1.41406 8.63386 1.01953 8.7364 0.710938 8.7364C0.398438 8.7364 0.238281 8.83073 0.117188 9.08503C0.0195312 9.29011 0.0195312 9.29421 0.0195312 10.4796C0.0195312 11.5624 0.0273438 11.6813 0.09375 11.8249C0.207031 12.0669 0.414062 12.1694 0.886719 12.2186C1.34375 12.2678 1.59375 12.3622 1.96484 12.6206C2.5625 13.0389 2.90625 13.7239 2.90625 14.4991C2.90234 15.0774 2.73438 15.5409 2.34766 16.0249C2.22266 16.1848 2.09766 16.353 2.07422 16.3981C2.01953 16.5089 2.01953 16.796 2.07422 16.9108C2.21094 17.1815 3.17578 18.2438 3.64062 18.6376C3.96484 18.9083 4.27344 18.8919 4.58594 18.5801C4.98047 18.1946 5.46094 17.9649 6.01562 17.9034C6.48438 17.8542 7.03516 18.0305 7.47656 18.371C7.96875 18.7524 8.32031 19.503 8.32031 20.1675C8.32031 20.4792 8.40234 20.713 8.55859 20.8319C8.73047 20.9673 9.21094 21.0124 10.2344 20.9919C10.9766 20.9755 11.1367 20.9632 11.2617 20.9016C11.5039 20.7786 11.5703 20.635 11.6055 20.1839C11.6523 19.5399 11.8516 19.06 12.2461 18.6376C12.6836 18.17 13.1016 17.9895 13.75 17.9895C14.3867 17.9854 14.8711 18.1864 15.3594 18.654C15.6172 18.9001 15.8594 18.9493 16.1133 18.8139C16.3672 18.6786 17.3516 17.6942 17.7539 17.1692C17.8984 16.9846 17.9102 16.9477 17.9102 16.7139C17.9102 16.4391 17.9336 16.4801 17.5 15.9346C16.9414 15.2333 16.8867 14.0971 17.375 13.3342C17.7891 12.6862 18.4102 12.313 19.1406 12.2719C19.6133 12.2473 19.7617 12.1735 19.8867 11.9069C19.9805 11.7141 19.9805 11.6854 19.9805 10.5206C19.9805 9.43776 19.9727 9.31882 19.9062 9.17526C19.8047 8.95788 19.5781 8.83073 19.2383 8.79792C18.6211 8.7364 18.125 8.51491 17.7695 8.14987C16.9023 7.25573 16.8555 5.96784 17.6523 4.97527C17.7773 4.8153 17.9023 4.64714 17.9258 4.60202C17.9805 4.49128 17.9805 4.20417 17.9258 4.08933C17.7891 3.81862 16.8242 2.75632 16.3594 2.36257C16.0391 2.09187 15.7422 2.10827 15.4219 2.41589C14.9453 2.87116 14.4453 3.08444 13.8281 3.08855C13.4453 3.09265 13.2109 3.03522 12.8711 2.86296C12.1602 2.49382 11.6836 1.6653 11.6797 0.799875C11.6758 0.299484 11.5039 0.0944061 11.043 0.0369835C10.707 -0.00403214 9.28906 7.05719e-05 8.98047 0.0410862ZM10.7539 4.5323C13.6797 4.93425 15.8555 7.65359 15.7305 10.7462C15.6953 11.6157 15.5039 12.395 15.125 13.1989L14.9453 13.5803L13.6992 12.2719L12.4531 10.9635L12.5508 10.6354C13.1602 8.61745 12.0625 6.48874 10.1094 5.90632C9.69141 5.77917 8.94922 5.75046 8.51562 5.8448C8.11328 5.93093 8.06641 5.95554 7.98438 6.1196C7.84766 6.39441 7.88672 6.45183 8.87109 7.48952L9.77344 8.44108L9.75 8.60105C9.73828 8.68718 9.71094 8.91276 9.6875 9.10554C9.66406 9.29831 9.625 9.55671 9.59766 9.67976L9.55078 9.90534L9.33594 9.95456C8.92188 10.053 8.23438 10.1268 8.14844 10.0817C8.10156 10.0571 7.67188 9.62644 7.1875 9.12194C6.3125 8.2114 6.30469 8.20319 6.13672 8.20319C5.86719 8.20319 5.76953 8.33855 5.68359 8.83484C5.39844 10.5001 6.21484 12.1653 7.66406 12.8749C8.46484 13.2686 9.40625 13.3342 10.2461 13.0553L10.5586 12.9528L11.8047 14.2612C12.4883 14.979 13.0469 15.5778 13.0469 15.5942C13.0469 15.6434 12.2148 16.0659 11.8633 16.1971C9.79297 16.96 7.40234 16.353 5.87891 14.6796C3.87891 12.4852 3.71875 9.19167 5.49219 6.78816C6.72656 5.11472 8.73438 4.25339 10.7539 4.5323Z" fill="#C92727"/>
-</g>
-<defs>
-<clipPath id="clip0_99_845">
-<rect width="20" height="21" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-          <div>
-            <p class="text-white text-[14px] font-semibold">Services</p>
-            <p class="text-gray-400 text-[13px]">+917373119888</p>
-          </div>
-        </div>
+      <img src="./assets/images/honda.jpg" onclick="openModal(2)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
 
-        <div class="flex items-center gap-3">
-<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.34756 0.0698738C7.84951 0.288233 6.47334 0.770655 5.29014 1.48159C2.41592 3.21323 0.531934 6.05191 0.0799805 9.33745C-0.0266602 10.1042 -0.0266602 11.521 0.0799805 12.2828C0.410059 14.6542 1.46631 16.7871 3.15732 18.4781C4.84834 20.1691 6.95068 21.2101 9.37295 21.5503C10.0585 21.6519 11.5769 21.6468 12.303 21.5453C17.1171 20.8851 20.9003 17.1019 21.5604 12.2828C21.6671 11.516 21.6671 10.0992 21.5604 9.33745C21.2304 6.96597 20.1741 4.83315 18.4831 3.14722C16.7972 1.46128 14.6644 0.394873 12.303 0.0749512C11.6124 -0.0215321 9.98232 -0.0266113 9.34756 0.0698738ZM7.34678 5.33589C7.60576 5.52886 9.40342 7.32651 9.47959 7.4687C9.63701 7.77339 9.53545 7.97651 8.81436 8.77886C8.57568 9.04292 8.38272 9.28159 8.38272 9.31206C8.38272 9.40347 8.80928 10.1246 9.1292 10.5664C9.52529 11.125 10.2972 11.9273 10.7897 12.2929C11.1858 12.5875 12.2522 13.2476 12.3335 13.2476C12.3589 13.2476 12.5366 13.1054 12.7296 12.9277C12.9226 12.755 13.1968 12.5164 13.339 12.3996C13.9382 11.9019 14.0245 11.9375 15.2687 13.2121C15.7917 13.7503 16.2589 14.2531 16.3147 14.3394C16.4671 14.5933 16.4366 14.8371 16.1929 15.1925C15.6089 16.0507 14.8675 16.4011 13.6132 16.4011C12.3843 16.4011 11.0843 15.8222 9.63193 14.6289C9.08857 14.182 7.63115 12.7144 7.05225 12.0289C6.26006 11.0894 5.63037 9.99761 5.37647 9.10894C5.2749 8.76362 5.25967 8.59097 5.26475 7.94097C5.26475 7.2605 5.27998 7.13862 5.40186 6.76792C5.58467 6.21441 5.85889 5.84878 6.34131 5.50347C6.67647 5.2648 6.76787 5.22925 6.96592 5.22417C7.12842 5.22417 7.24522 5.25972 7.34678 5.33589Z" fill="#C92727"/>
-</svg>
-          <div>
-            <p class="text-white text-[14px] font-semibold">Contact</p>
-            <p class="text-gray-400 text-[13px]">+91 7373226888</p>
-          </div>
-        </div>
-  <div class="flex items-center gap-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#C92727" d="M14.42 7.5L16 11H8l1.42-3.5zM9 12c-.55 0-1 .45-1 1s.45 1 1 1s1-.45 1-1s-.45-1-1-1m6 0c-.55 0-1 .45-1 1s.45 1 1 1s1-.45 1-1s-.45-1-1-1m6-7v6c0 5.55-3.84 10.74-9 12c-5.16-1.26-9-6.45-9-12V5l9-4zm-3 7l-2.16-5c-.2-.58-.76-1-1.42-1h-5C8.76 6 8.2 6.42 8 7l-2 5v4c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h6v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1z"/></svg>          <div>
-            <p class="text-white text-[14px] font-semibold">Insurance</p>
-            <p class="text-gray-400 text-[13px]">+91 7373895888</p>
-          </div>
-        </div>
-        <div class="flex items-center gap-3">
-  <svg class="w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path fill="#C92727" d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m0 2l-6.5 4.47a1 1 0 0 1-1 0L5 6Z"/>
-  </svg>
+      <img src="./assets/images/honda.jpg" onclick="openModal(3)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
 
-  <div>
-    <p class="text-white text-[14px] font-semibold">Email</p>
-    <p class="text-gray-400 text-[13px]">rkmhonda88@gmail.com</p>
-  </div>
-</div>
-      </div>
+      <img src="./assets/images/honda.jpg" onclick="openModal(4)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
+
+      <img src="./assets/images/honda.jpg" onclick="openModal(5)"
+        class="w-full mb-4 rounded-xl cursor-pointer break-inside-avoid hover:scale-105 transition duration-300" />
 
     </div>
 
 
-    <div class="bg-gradient-to-b from-[#1f1f1f] to-[#2a2a2a] 
+    <!-- 🔥 MODAL -->
+    <div id="modal" class="fixed inset-0 bg-black/95 hidden items-center justify-center z-50">
+
+      <!-- CLOSE -->
+      <span onclick="closeModal()"
+        class="absolute top-4 right-5 sm:top-6 sm:right-8 text-white text-3xl sm:text-4xl cursor-pointer z-50">
+        &times;
+      </span>
+
+      <!-- PREV -->
+      <button onclick="prevImage()"
+        class="absolute left-2 sm:left-5 text-white text-2xl sm:text-3xl px-3 py-2 bg-white/10 rounded-full hover:bg-white/20">
+        &#10094;
+      </button>
+
+      <!-- IMAGE -->
+      <img id="modalImg" class="max-w-[95%] sm:max-w-[90%] max-h-[70vh] sm:max-h-[80vh] rounded-xl shadow-lg" />
+
+      <!-- NEXT -->
+      <button onclick="nextImage()"
+        class="absolute right-2 sm:right-5 text-white text-2xl sm:text-3xl px-3 py-2 bg-white/10 rounded-full hover:bg-white/20">
+        &#10095;
+      </button>
+
+    </div>
+
+  </section>
+
+  <section class="bg-[#151515] py-10 md:py-20 px-6 md:px-16 " id="contact" data-aos="fade-up" data-aos-delay="200">
+    <div class="w-full mx-auto">
+      <div class="grid md:grid-cols-2 gap-10 lg:gap-[170px] items-start ">
+
+        <div class="lg:pl-[45px]">
+
+          <p class="text-gray-400 text-sm mb-2 font-kumbh text-center lg:text-left">Contact us</p>
+
+          <h2
+            class="text-yellow-400 text-[28px] font-semibold leading-snug mb-8 font-kumbh text-center lg:text-left max-w-[340px]">
+            We are always here to help you — find us anytime.
+          </h2>
+
+          <div class="rounded-[16px] overflow-hidden mb-6">
+
+            <iframe       src="https://www.google.com/maps?q=RKM+Honda+Bhavani&output=embed"
+
+              class="w-full h-[250px] border-0" allowfullscreen="" loading="lazy">
+            </iframe>
+
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+
+
+            <div class="flex items-center gap-3">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_99_845)">
+                  <path
+                    d="M8.98047 0.0410862C8.5625 0.0985069 8.4375 0.262569 8.39453 0.81218C8.35938 1.21823 8.28906 1.49714 8.14062 1.80886C7.88281 2.35027 7.37109 2.79323 6.81641 2.9573C6.50781 3.04753 5.89453 3.03112 5.55859 2.92038C5.26562 2.82605 4.79297 2.52253 4.58984 2.30105C4.44531 2.13698 4.23047 2.07546 4.02734 2.13288C3.82422 2.1903 3.36328 2.58816 2.83203 3.16237C2.26562 3.77761 2.10938 3.98269 2.08203 4.15905C2.04297 4.42566 2.09766 4.56921 2.36328 4.88093C3.01953 5.64792 3.14062 6.62409 2.69531 7.54694C2.55469 7.84226 2.08594 8.29343 1.75391 8.46159C1.41406 8.63386 1.01953 8.7364 0.710938 8.7364C0.398438 8.7364 0.238281 8.83073 0.117188 9.08503C0.0195312 9.29011 0.0195312 9.29421 0.0195312 10.4796C0.0195312 11.5624 0.0273438 11.6813 0.09375 11.8249C0.207031 12.0669 0.414062 12.1694 0.886719 12.2186C1.34375 12.2678 1.59375 12.3622 1.96484 12.6206C2.5625 13.0389 2.90625 13.7239 2.90625 14.4991C2.90234 15.0774 2.73438 15.5409 2.34766 16.0249C2.22266 16.1848 2.09766 16.353 2.07422 16.3981C2.01953 16.5089 2.01953 16.796 2.07422 16.9108C2.21094 17.1815 3.17578 18.2438 3.64062 18.6376C3.96484 18.9083 4.27344 18.8919 4.58594 18.5801C4.98047 18.1946 5.46094 17.9649 6.01562 17.9034C6.48438 17.8542 7.03516 18.0305 7.47656 18.371C7.96875 18.7524 8.32031 19.503 8.32031 20.1675C8.32031 20.4792 8.40234 20.713 8.55859 20.8319C8.73047 20.9673 9.21094 21.0124 10.2344 20.9919C10.9766 20.9755 11.1367 20.9632 11.2617 20.9016C11.5039 20.7786 11.5703 20.635 11.6055 20.1839C11.6523 19.5399 11.8516 19.06 12.2461 18.6376C12.6836 18.17 13.1016 17.9895 13.75 17.9895C14.3867 17.9854 14.8711 18.1864 15.3594 18.654C15.6172 18.9001 15.8594 18.9493 16.1133 18.8139C16.3672 18.6786 17.3516 17.6942 17.7539 17.1692C17.8984 16.9846 17.9102 16.9477 17.9102 16.7139C17.9102 16.4391 17.9336 16.4801 17.5 15.9346C16.9414 15.2333 16.8867 14.0971 17.375 13.3342C17.7891 12.6862 18.4102 12.313 19.1406 12.2719C19.6133 12.2473 19.7617 12.1735 19.8867 11.9069C19.9805 11.7141 19.9805 11.6854 19.9805 10.5206C19.9805 9.43776 19.9727 9.31882 19.9062 9.17526C19.8047 8.95788 19.5781 8.83073 19.2383 8.79792C18.6211 8.7364 18.125 8.51491 17.7695 8.14987C16.9023 7.25573 16.8555 5.96784 17.6523 4.97527C17.7773 4.8153 17.9023 4.64714 17.9258 4.60202C17.9805 4.49128 17.9805 4.20417 17.9258 4.08933C17.7891 3.81862 16.8242 2.75632 16.3594 2.36257C16.0391 2.09187 15.7422 2.10827 15.4219 2.41589C14.9453 2.87116 14.4453 3.08444 13.8281 3.08855C13.4453 3.09265 13.2109 3.03522 12.8711 2.86296C12.1602 2.49382 11.6836 1.6653 11.6797 0.799875C11.6758 0.299484 11.5039 0.0944061 11.043 0.0369835C10.707 -0.00403214 9.28906 7.05719e-05 8.98047 0.0410862ZM10.7539 4.5323C13.6797 4.93425 15.8555 7.65359 15.7305 10.7462C15.6953 11.6157 15.5039 12.395 15.125 13.1989L14.9453 13.5803L13.6992 12.2719L12.4531 10.9635L12.5508 10.6354C13.1602 8.61745 12.0625 6.48874 10.1094 5.90632C9.69141 5.77917 8.94922 5.75046 8.51562 5.8448C8.11328 5.93093 8.06641 5.95554 7.98438 6.1196C7.84766 6.39441 7.88672 6.45183 8.87109 7.48952L9.77344 8.44108L9.75 8.60105C9.73828 8.68718 9.71094 8.91276 9.6875 9.10554C9.66406 9.29831 9.625 9.55671 9.59766 9.67976L9.55078 9.90534L9.33594 9.95456C8.92188 10.053 8.23438 10.1268 8.14844 10.0817C8.10156 10.0571 7.67188 9.62644 7.1875 9.12194C6.3125 8.2114 6.30469 8.20319 6.13672 8.20319C5.86719 8.20319 5.76953 8.33855 5.68359 8.83484C5.39844 10.5001 6.21484 12.1653 7.66406 12.8749C8.46484 13.2686 9.40625 13.3342 10.2461 13.0553L10.5586 12.9528L11.8047 14.2612C12.4883 14.979 13.0469 15.5778 13.0469 15.5942C13.0469 15.6434 12.2148 16.0659 11.8633 16.1971C9.79297 16.96 7.40234 16.353 5.87891 14.6796C3.87891 12.4852 3.71875 9.19167 5.49219 6.78816C6.72656 5.11472 8.73438 4.25339 10.7539 4.5323Z"
+                    fill="#C92727" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_99_845">
+                    <rect width="20" height="21" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <div>
+                <p class="text-white text-[14px] font-semibold">Services</p>
+                <p class="text-gray-400 text-[13px]">+917373119888</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.34756 0.0698738C7.84951 0.288233 6.47334 0.770655 5.29014 1.48159C2.41592 3.21323 0.531934 6.05191 0.0799805 9.33745C-0.0266602 10.1042 -0.0266602 11.521 0.0799805 12.2828C0.410059 14.6542 1.46631 16.7871 3.15732 18.4781C4.84834 20.1691 6.95068 21.2101 9.37295 21.5503C10.0585 21.6519 11.5769 21.6468 12.303 21.5453C17.1171 20.8851 20.9003 17.1019 21.5604 12.2828C21.6671 11.516 21.6671 10.0992 21.5604 9.33745C21.2304 6.96597 20.1741 4.83315 18.4831 3.14722C16.7972 1.46128 14.6644 0.394873 12.303 0.0749512C11.6124 -0.0215321 9.98232 -0.0266113 9.34756 0.0698738ZM7.34678 5.33589C7.60576 5.52886 9.40342 7.32651 9.47959 7.4687C9.63701 7.77339 9.53545 7.97651 8.81436 8.77886C8.57568 9.04292 8.38272 9.28159 8.38272 9.31206C8.38272 9.40347 8.80928 10.1246 9.1292 10.5664C9.52529 11.125 10.2972 11.9273 10.7897 12.2929C11.1858 12.5875 12.2522 13.2476 12.3335 13.2476C12.3589 13.2476 12.5366 13.1054 12.7296 12.9277C12.9226 12.755 13.1968 12.5164 13.339 12.3996C13.9382 11.9019 14.0245 11.9375 15.2687 13.2121C15.7917 13.7503 16.2589 14.2531 16.3147 14.3394C16.4671 14.5933 16.4366 14.8371 16.1929 15.1925C15.6089 16.0507 14.8675 16.4011 13.6132 16.4011C12.3843 16.4011 11.0843 15.8222 9.63193 14.6289C9.08857 14.182 7.63115 12.7144 7.05225 12.0289C6.26006 11.0894 5.63037 9.99761 5.37647 9.10894C5.2749 8.76362 5.25967 8.59097 5.26475 7.94097C5.26475 7.2605 5.27998 7.13862 5.40186 6.76792C5.58467 6.21441 5.85889 5.84878 6.34131 5.50347C6.67647 5.2648 6.76787 5.22925 6.96592 5.22417C7.12842 5.22417 7.24522 5.25972 7.34678 5.33589Z"
+                  fill="#C92727" />
+              </svg>
+              <div>
+                <p class="text-white text-[14px] font-semibold">Contact</p>
+                <p class="text-gray-400 text-[13px]">+91 7373226888</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="#C92727"
+                  d="M14.42 7.5L16 11H8l1.42-3.5zM9 12c-.55 0-1 .45-1 1s.45 1 1 1s1-.45 1-1s-.45-1-1-1m6 0c-.55 0-1 .45-1 1s.45 1 1 1s1-.45 1-1s-.45-1-1-1m6-7v6c0 5.55-3.84 10.74-9 12c-5.16-1.26-9-6.45-9-12V5l9-4zm-3 7l-2.16-5c-.2-.58-.76-1-1.42-1h-5C8.76 6 8.2 6.42 8 7l-2 5v4c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h6v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1z" />
+              </svg>
+              <div>
+                <p class="text-white text-[14px] font-semibold">Insurance</p>
+                <p class="text-gray-400 text-[13px]">+91 7373895888</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-6 h-6 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="#C92727"
+                  d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m0 2l-6.5 4.47a1 1 0 0 1-1 0L5 6Z" />
+              </svg>
+
+              <div>
+                <p class="text-white text-[14px] font-semibold">Email</p>
+                <p class="text-gray-400 text-[12px] lg:text-[13px]">rkmhonda88@gmail.com</p>
+              </div>
+             
+            </div>
+             <div class="flex items-center gap-3 col-span-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="#C92727"
+                    d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7" />
+                </svg>
+                <div>
+                  <p class="text-white text-[14px] font-semibold">Location</p>
+                  <p class="text-gray-400 text-[13px] w-full">Bhavani,Erode,Tamil Nadu</p>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+
+        <div class="bg-gradient-to-b from-[#1f1f1f] to-[#2a2a2a] 
                 rounded-[16px] p-8 shadow-[0_20px_60px_rgba(0,0,0,0.6)] max-w-[420px] w-full">
 
-      <h3 class="text-white text-[20px] font-semibold mb-6 font-kumbh">
-        Get in Touch
-      </h3>
+          <h3 class="text-white text-[20px] font-semibold mb-6 font-kumbh">
+            Get in Touch
+          </h3>
 
-      <form class="flex flex-col gap-5">
+          <form class="flex flex-col gap-5">
 
-        <div>
-          <label class="text-gray-400 text-[13px]">Name</label>
-          <input type="text"
-                 class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500" />
+            <div>
+              <label class="text-gray-400 text-[13px]">Name</label>
+              <input type="text"
+                class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500" />
+            </div>
+
+            <div>
+              <label class="text-gray-400 text-[13px]">Phone</label>
+              <input type="text"
+                class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500" />
+            </div>
+
+            <div>
+              <label class="text-gray-400 text-[13px]">Message</label>
+              <textarea rows="4"
+                class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500"></textarea>
+            </div>
+
+            <button class="bg-[#D93738] text-white py-3 rounded-lg font-semibold mt-3 hover:bg-red-700 transition">
+              Send Enquiry
+            </button>
+
+          </form>
+
         </div>
 
-        <div>
-          <label class="text-gray-400 text-[13px]">Phone</label>
-          <input type="text"
-                 class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500" />
-        </div>
+      </div>
+    </div>
+  </section>
 
-        <div>
-          <label class="text-gray-400 text-[13px]">Message</label>
-          <textarea rows="4"
-                    class="w-full mt-1 p-3 rounded-lg bg-[#3a3a3a] text-white outline-none border border-transparent focus:border-red-500"></textarea>
-        </div>
+  <section class="relative bg-black py-28 overflow-hidden">
 
-        <button class="bg-[#D93738] text-white py-3 rounded-lg font-semibold mt-3 hover:bg-red-700 transition">
-          Send Enquiry
-        </button>
-
-      </form>
-
+    <div class="absolute inset-0 bg-fixed bg-center bg-cover opacity-30"
+      style="background-image: url('./assets/images/bgheader.png');">
     </div>
 
-  </div>
-</div>
-</section>
+    <div class="absolute inset-0 bg-black/30"></div>
 
-<section class="relative bg-black py-28 overflow-hidden">
+    <div class="relative z-10 flex justify-center px-6">
 
-  <div class="absolute inset-0 bg-fixed bg-center bg-cover opacity-30"
-       style="background-image: url('./assets/images/bgheader.png');">
-  </div>
-
-  <div class="absolute inset-0 bg-black/30"></div>
-
-  <div class="relative z-10 flex justify-center px-6">
-
-    <div class="bg-gradient-to-r from-[#1f1f1f] to-[#2a2a2a] 
+      <div class="bg-gradient-to-r from-[#1f1f1f] to-[#2a2a2a] 
                 rounded-3xl px-8 md:px-16 py-10 text-center
                 shadow-[0_20px_60px_rgba(0,0,0,0.6)]
                 backdrop-blur-md max-w-2xl w-full">
 
-      <h2 class="text-white text-2xl md:text-3xl font-semibold mb-3 font-kumbh">
-        Ready to Ride?
-      </h2>
+        <h2 class="text-white text-2xl md:text-3xl font-semibold mb-3 font-kumbh">
+          Ready to Ride?
+        </h2>
 
-      <p class="text-gray-400 text-sm md:text-base mb-6 font-kumbh">
-        Book your test ride today and experience Honda performance.
-      </p>
+        <p class="text-gray-400 text-sm md:text-base mb-6 font-kumbh">
+          Book your test ride today and experience Honda performance.
+        </p>
 
-      <div class="flex flex-col md:flex-row gap-4 justify-center">
-<a href="#contact">
-        <button class="bg-[#D93738] text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
-          Book Test Ride
-        </button>
-        </a>
-<a href="#contact">
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+<a href="https://wa.me/7373226888text=Hi%20I%20want%20to%20book%20a%20test%20ride" target="_blank">            <button class="bg-[#D93738] text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
+              Book Test Ride
+            </button>
+          </a>
+<a href="https://www.google.com/maps?q=RKM+Honda+Bhavani" target="_blank"><button class="bg-[#D9CBCB] text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+              Visit Showroom
+            </button>
+          </a>
 
-        <button class="bg-[#D9CBCB] text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
-          Visit Showroom
-        </button>
-                </a>
 
+        </div>
 
       </div>
 
     </div>
 
-  </div>
+  </section>
 
-</section>
+  <section class="bg-black text-white pt-20 pb-10 px-6 md:px-16 relative overflow-hidden">
 
-<section class="bg-black text-white pt-20 pb-10 px-6 md:px-16 relative overflow-hidden">
+    <!-- 🔥 TOP GRADIENT GLOW -->
+    <div
+      class="absolute top-0 left-0 w-full h-[300px] bg-gradient-to-b from-white/10 to-transparent pointer-events-none">
+    </div>
 
-  <!-- 🔥 TOP GRADIENT GLOW -->
-  <div class="absolute top-0 left-0 w-full h-[300px] bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto">
 
-  <div class="max-w-7xl mx-auto">
+      <!-- TOP GRID -->
+      <div class="grid md:grid-cols-2 gap-12 mb-16">
 
-    <!-- TOP GRID -->
-    <div class="grid md:grid-cols-2 gap-12 mb-16">
+        <!-- 🔴 LEFT -->
+        <div>
 
-      <!-- 🔴 LEFT -->
-      <div>
+          <!-- Logo -->
+          <img src="./assets/images/logo.png" class="h-[60px] md:h-[78px]" />
 
-        <!-- Logo -->
-    <img src="./assets/images/logo.png" class="h-[60px] md:h-[78px]" />
+          <!-- Main Heading -->
+          <h1 class="text-3xl md:text-4xl font-semibold leading-tight mb-6 font-kumbh">
+            Your journey to the perfect ride starts here.
+          </h1>
 
-        <!-- Main Heading -->
-        <h1 class="text-3xl md:text-4xl font-semibold leading-tight mb-6 font-kumbh">
-          Your journey to the perfect ride starts here.
-        </h1>
+          <!-- Newsletter -->
+          <div class="mb-4">
+            <h3 class="text-white font-medium mb-1">Subscribe to Our Newsletter</h3>
+            <p class="text-gray-400 text-sm">
+              Stay updated with the latest offers, new bikes and exclusive deals.
+            </p>
+          </div>
 
-        <!-- Newsletter -->
-        <div class="mb-4">
-          <h3 class="text-white font-medium mb-1">Subscribe to Our Newsletter</h3>
-          <p class="text-gray-400 text-sm">
-            Stay updated with the latest offers, new bikes and exclusive deals.
-          </p>
+          <!-- Input -->
+          <div class="flex items-center bg-white/5 border border-white/10 rounded-lg p-1 max-w-md mt-4">
+            <input type="text" placeholder="Enter your email"
+              class="flex-1 bg-transparent outline-none px-3 py-2 text-sm text-white" />
+            <button class="bg-white text-black px-4 py-2 rounded-md text-sm font-medium">
+              Subscribe Now
+            </button>
+          </div>
+
         </div>
 
-        <!-- Input -->
-        <div class="flex items-center bg-white/5 border border-white/10 rounded-lg p-1 max-w-md mt-4">
-          <input 
-            type="text" 
-            placeholder="Enter your email"
-            class="flex-1 bg-transparent outline-none px-3 py-2 text-sm text-white"
-          />
-          <button class="bg-white text-black px-4 py-2 rounded-md text-sm font-medium">
-            Subscribe Now
-          </button>
+
+        <!-- 🔴 RIGHT LINKS -->
+        <!-- 🔴 RIGHT LINKS (ONLY QUICK LINKS) -->
+        <div class="flex flex-col justify-start md:justify-end">
+
+          <div>
+            <h3 class="text-white font-semibold mb-4 text-center md:text-left">
+              Quick Links
+            </h3>
+
+            <ul
+              class="flex flex-row flex-wrap justify-center items-center text-center md:flex-col md:items-start md:text-left md:space-y-2 gap-4 md:gap-0 text-gray-400 text-sm cursor-pointer">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+
+          </div>
+
         </div>
 
       </div>
 
 
-      <!-- 🔴 RIGHT LINKS -->
-    <!-- 🔴 RIGHT LINKS (ONLY QUICK LINKS) -->
-<div class="flex flex-col justify-start md:justify-end">
+      <!-- 🔻 BOTTOM BAR -->
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-6 border-t border-white/10 pt-6 text-sm text-gray-400">
 
-  <div>
-    <h3 class="text-white font-semibold mb-4 text-center md:text-left">
-      Quick Links
-    </h3>
+        <!-- Left -->
+        <p>
+          © 2026 Rkm Honda. All Rights Reserved.
+          <span class="text-yellow-400">Designed by Cybexel Pvt Limited</span>
+        </p>
+        <!-- Center -->
+        <div class="flex items-center gap-3 font-kumbh">
+          <span>Follow Us On</span>
 
-    <ul class="flex flex-row flex-wrap justify-center items-center text-center md:flex-col md:items-start md:text-left md:space-y-2 gap-4 md:gap-0 text-gray-400 text-sm cursor-pointer">
-      <li><a href="#home" >Home</a></li>
-            <li><a href="#about" >About</a></li>
-            <li><a href="#service" >Services</a></li>
-            <li><a href="#gallery" >Gallery</a></li>
-            <li><a href="#contact" >Contact</a></li>
+          <div class="flex gap-2">
+            <a href="https://www.instagram.com/rkm_honda?igsh=eDFwNng1bDBoMGo1" target="_blank">
 
-     
-    </ul>
+              <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="16"
+                  height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.97988 0.0261021C1.55346 0.236617 0.442808 1.24927 0.0798507 2.66117L0 2.98058V7.75347V12.5264L0.0798507 12.8458C0.406513 14.1197 1.32117 15.0562 2.58426 15.4046L2.93996 15.5026H7.731H12.522L12.8414 15.4228C14.1445 15.0888 15.0845 14.1488 15.4184 12.8458L15.4983 12.5264V7.75347V2.98058L15.4184 2.66117C15.0881 1.36905 14.159 0.432614 12.8596 0.0878048L12.5583 0.0079546L7.87618 0.000695229C5.29918 -0.00293446 3.09603 0.0079546 2.97988 0.0261021ZM13.1935 1.60497C13.571 1.71748 13.9194 2.1857 13.9194 2.57769C13.9194 3.13665 13.4331 3.61575 12.8705 3.61575C11.8651 3.61212 11.4549 2.29459 12.2861 1.74289C12.5874 1.54327 12.8523 1.50334 13.1935 1.60497ZM8.6021 2.83539C9.76356 3.03865 10.8851 3.69923 11.6183 4.61026C12.17 5.29262 12.5003 6.0149 12.6709 6.90052C12.758 7.34696 12.758 8.16361 12.6672 8.62457C12.2752 10.7007 10.6964 12.2796 8.62024 12.6715C8.15929 12.7623 7.34263 12.7623 6.8962 12.6752C5.5351 12.4138 4.45349 11.7206 3.65135 10.5918C2.79477 9.39404 2.53344 7.78251 2.96173 6.32705C3.33558 5.06032 4.26838 3.94242 5.45888 3.32902C6.46428 2.81362 7.51685 2.64666 8.6021 2.83539Z"
+                    fill="white" />
+                  <path
+                    d="M7.33178 4.92201C6.1921 5.10349 5.28107 5.91651 4.98345 7.02353C4.92537 7.23405 4.90723 7.40827 4.90723 7.75308C4.90723 8.27211 4.97982 8.60603 5.17219 8.99076C5.56055 9.76386 6.1921 10.2865 7.01238 10.5188C7.41163 10.6313 8.08674 10.6313 8.48599 10.5188C9.49138 10.2357 10.2318 9.49527 10.5149 8.49351C10.6274 8.09063 10.6274 7.41916 10.5149 7.01627C10.1665 5.78948 9.14294 4.96919 7.87985 4.90749C7.69837 4.8966 7.45156 4.90386 7.33178 4.92201Z"
+                    fill="white" />
+                </svg>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/share/18TD67rPyb/" target="_blank">
 
-  </div>
+              <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="18"
+                  height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.96875 0.0679646C1.82461 0.106636 1.57148 0.205074 1.40625 0.285933C1.16367 0.405464 1.04414 0.49687 0.773438 0.77109C0.499219 1.04179 0.407812 1.16132 0.288281 1.4039C0.207422 1.56914 0.108984 1.82929 0.0703125 1.98046C0 2.25468 0 2.39179 0 8.99765C0 15.6035 0 15.7406 0.0703125 16.0148C0.108984 16.166 0.207422 16.4262 0.288281 16.5914C0.407812 16.834 0.499219 16.9535 0.773438 17.2242C1.04414 17.4984 1.16367 17.5898 1.40625 17.7094C2.00391 18.0082 1.88437 17.9977 5.10469 17.9977H7.94531V14.816V11.6344H6.89062H5.83594V10.0523V8.47031H6.88711H7.93828L7.95586 7.21171C7.97695 5.84765 7.99453 5.68242 8.19492 5.16562C8.4832 4.41679 9.20039 3.6996 9.94922 3.41132C10.5047 3.19687 10.575 3.18984 12.5262 3.17226L14.3086 3.15468V4.74023V6.32578H12.709H11.1094V7.39804V8.47031H12.6914C13.9324 8.47031 14.2734 8.48086 14.2734 8.5125C14.2734 8.53711 14.1609 9.25078 14.0203 10.0945L13.7637 11.6344H12.4383H11.1094V14.816V17.9977H13.4227C16.0488 17.9977 16.0066 18.0012 16.5938 17.7094C16.8363 17.5898 16.9559 17.4984 17.2266 17.2242C17.5008 16.9535 17.5922 16.834 17.7117 16.5914C17.7926 16.4262 17.891 16.166 17.9297 16.0148C18 15.7406 18 15.6035 18 8.99765C18 2.39179 18 2.25468 17.9297 1.98046C17.891 1.82929 17.7926 1.56914 17.7117 1.4039C17.5922 1.16132 17.5008 1.04179 17.2266 0.77109C16.9559 0.49687 16.8363 0.405464 16.5938 0.285933C16.4285 0.205074 16.1684 0.106636 16.0172 0.0679646C15.743 -0.00234795 15.6094 -0.00234795 8.98594 0.0011673C2.43281 0.0011673 2.22539 0.00468254 1.96875 0.0679646Z"
+                    fill="white" />
+                </svg>
+              </div>
+            </a>
+            <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="14"
+                height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.4733 0.0147924C3.04322 0.0612764 2.02877 0.135105 1.55572 0.230808C0.965094 0.351121 0.48111 0.777683 0.295172 1.34096C0.0873599 1.96167 -0.0438901 3.86479 0.0135317 5.36596C0.0791567 7.00112 0.207672 7.8187 0.467438 8.20972C0.773688 8.67182 1.1647 8.89878 1.82095 8.99448C2.98853 9.16401 5.96353 9.24331 8.45181 9.17495C10.4753 9.11753 11.4733 9.03003 11.8971 8.87143C12.1022 8.79487 12.4057 8.57339 12.5561 8.39018C12.8678 8.01011 12.9772 7.55893 13.092 6.20815C13.1385 5.66128 13.1385 3.47651 13.092 2.9269C13.0264 2.13393 12.9471 1.64175 12.8378 1.30815C12.6874 0.854245 12.2444 0.427683 11.7741 0.28823C11.4159 0.178855 10.612 0.0968237 9.36783 0.0421362C8.51744 0.00385475 5.38931 -0.0152855 4.4733 0.0147924ZM6.95064 3.6187C7.83658 4.12729 8.58033 4.55659 8.60494 4.57026C8.64048 4.5894 8.26314 4.81636 6.98619 5.5519C6.07017 6.0769 5.30728 6.51167 5.29361 6.51714C5.27447 6.52534 5.26627 5.85268 5.26627 4.59487C5.26627 2.96518 5.27173 2.6644 5.30455 2.67534C5.32369 2.68354 6.0647 3.10737 6.95064 3.6187Z"
+                  fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
 
-</div>
+        <!-- Right -->
+        <div class="flex gap-6">
+          <span>Privacy Policy</span>
+          <span>Terms & Conditions</span>
+        </div>
+
+      </div>
 
     </div>
 
+  </section>
+  <script>
+    const images = [
+      "./assets/images/honda.jpg",
+      "./assets/images/honda.jpg",
+      "./assets/images/honda.jpg",
+      "./assets/images/honda.jpg",
+      "./assets/images/honda.jpg",
+      "./assets/images/honda.jpg"
+    ];
 
-    <!-- 🔻 BOTTOM BAR -->
-    <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-t border-white/10 pt-6 text-sm text-gray-400">
+    let currentIndex = 0;
 
-      <!-- Left -->
-<p>
-  © 2024 RKM Motors. All Rights Reserved. 
-  <span class="text-yellow-400">Designed by Cybexel</span>
-</p>
-      <!-- Center -->
-      <div class="flex items-center gap-3 font-kumbh">
-        <span>Follow Us On</span>
+    // 🔥 MODAL FUNCTIONS
+    function openModal(index) {
+      currentIndex = index;
+      document.getElementById("modal").classList.remove("hidden");
+      document.getElementById("modal").classList.add("flex");
+      document.getElementById("modalImg").src = images[currentIndex];
+    }
 
-        <div class="flex gap-2">
-          <a href="https://www.instagram.com/rkm_honda?igsh=eDFwNng1bDBoMGo1" target="_blank">
+    function closeModal() {
+      document.getElementById("modal").classList.add("hidden");
+      document.getElementById("modal").classList.remove("flex");
+    }
 
-          <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.97988 0.0261021C1.55346 0.236617 0.442808 1.24927 0.0798507 2.66117L0 2.98058V7.75347V12.5264L0.0798507 12.8458C0.406513 14.1197 1.32117 15.0562 2.58426 15.4046L2.93996 15.5026H7.731H12.522L12.8414 15.4228C14.1445 15.0888 15.0845 14.1488 15.4184 12.8458L15.4983 12.5264V7.75347V2.98058L15.4184 2.66117C15.0881 1.36905 14.159 0.432614 12.8596 0.0878048L12.5583 0.0079546L7.87618 0.000695229C5.29918 -0.00293446 3.09603 0.0079546 2.97988 0.0261021ZM13.1935 1.60497C13.571 1.71748 13.9194 2.1857 13.9194 2.57769C13.9194 3.13665 13.4331 3.61575 12.8705 3.61575C11.8651 3.61212 11.4549 2.29459 12.2861 1.74289C12.5874 1.54327 12.8523 1.50334 13.1935 1.60497ZM8.6021 2.83539C9.76356 3.03865 10.8851 3.69923 11.6183 4.61026C12.17 5.29262 12.5003 6.0149 12.6709 6.90052C12.758 7.34696 12.758 8.16361 12.6672 8.62457C12.2752 10.7007 10.6964 12.2796 8.62024 12.6715C8.15929 12.7623 7.34263 12.7623 6.8962 12.6752C5.5351 12.4138 4.45349 11.7206 3.65135 10.5918C2.79477 9.39404 2.53344 7.78251 2.96173 6.32705C3.33558 5.06032 4.26838 3.94242 5.45888 3.32902C6.46428 2.81362 7.51685 2.64666 8.6021 2.83539Z" fill="white"/>
-<path d="M7.33178 4.92201C6.1921 5.10349 5.28107 5.91651 4.98345 7.02353C4.92537 7.23405 4.90723 7.40827 4.90723 7.75308C4.90723 8.27211 4.97982 8.60603 5.17219 8.99076C5.56055 9.76386 6.1921 10.2865 7.01238 10.5188C7.41163 10.6313 8.08674 10.6313 8.48599 10.5188C9.49138 10.2357 10.2318 9.49527 10.5149 8.49351C10.6274 8.09063 10.6274 7.41916 10.5149 7.01627C10.1665 5.78948 9.14294 4.96919 7.87985 4.90749C7.69837 4.8966 7.45156 4.90386 7.33178 4.92201Z" fill="white"/>
-</svg>
-</div>
-</a>
-          <a href="https://www.facebook.com/share/18TD67rPyb/" target="_blank">
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      document.getElementById("modalImg").src = images[currentIndex];
+    }
 
-          <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.96875 0.0679646C1.82461 0.106636 1.57148 0.205074 1.40625 0.285933C1.16367 0.405464 1.04414 0.49687 0.773438 0.77109C0.499219 1.04179 0.407812 1.16132 0.288281 1.4039C0.207422 1.56914 0.108984 1.82929 0.0703125 1.98046C0 2.25468 0 2.39179 0 8.99765C0 15.6035 0 15.7406 0.0703125 16.0148C0.108984 16.166 0.207422 16.4262 0.288281 16.5914C0.407812 16.834 0.499219 16.9535 0.773438 17.2242C1.04414 17.4984 1.16367 17.5898 1.40625 17.7094C2.00391 18.0082 1.88437 17.9977 5.10469 17.9977H7.94531V14.816V11.6344H6.89062H5.83594V10.0523V8.47031H6.88711H7.93828L7.95586 7.21171C7.97695 5.84765 7.99453 5.68242 8.19492 5.16562C8.4832 4.41679 9.20039 3.6996 9.94922 3.41132C10.5047 3.19687 10.575 3.18984 12.5262 3.17226L14.3086 3.15468V4.74023V6.32578H12.709H11.1094V7.39804V8.47031H12.6914C13.9324 8.47031 14.2734 8.48086 14.2734 8.5125C14.2734 8.53711 14.1609 9.25078 14.0203 10.0945L13.7637 11.6344H12.4383H11.1094V14.816V17.9977H13.4227C16.0488 17.9977 16.0066 18.0012 16.5938 17.7094C16.8363 17.5898 16.9559 17.4984 17.2266 17.2242C17.5008 16.9535 17.5922 16.834 17.7117 16.5914C17.7926 16.4262 17.891 16.166 17.9297 16.0148C18 15.7406 18 15.6035 18 8.99765C18 2.39179 18 2.25468 17.9297 1.98046C17.891 1.82929 17.7926 1.56914 17.7117 1.4039C17.5922 1.16132 17.5008 1.04179 17.2266 0.77109C16.9559 0.49687 16.8363 0.405464 16.5938 0.285933C16.4285 0.205074 16.1684 0.106636 16.0172 0.0679646C15.743 -0.00234795 15.6094 -0.00234795 8.98594 0.0011673C2.43281 0.0011673 2.22539 0.00468254 1.96875 0.0679646Z" fill="white"/>
-</svg>
-</div>
-</a>
-          <div class="w-8 h-8 border border-white/20 rounded flex items-center justify-center"><svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.4733 0.0147924C3.04322 0.0612764 2.02877 0.135105 1.55572 0.230808C0.965094 0.351121 0.48111 0.777683 0.295172 1.34096C0.0873599 1.96167 -0.0438901 3.86479 0.0135317 5.36596C0.0791567 7.00112 0.207672 7.8187 0.467438 8.20972C0.773688 8.67182 1.1647 8.89878 1.82095 8.99448C2.98853 9.16401 5.96353 9.24331 8.45181 9.17495C10.4753 9.11753 11.4733 9.03003 11.8971 8.87143C12.1022 8.79487 12.4057 8.57339 12.5561 8.39018C12.8678 8.01011 12.9772 7.55893 13.092 6.20815C13.1385 5.66128 13.1385 3.47651 13.092 2.9269C13.0264 2.13393 12.9471 1.64175 12.8378 1.30815C12.6874 0.854245 12.2444 0.427683 11.7741 0.28823C11.4159 0.178855 10.612 0.0968237 9.36783 0.0421362C8.51744 0.00385475 5.38931 -0.0152855 4.4733 0.0147924ZM6.95064 3.6187C7.83658 4.12729 8.58033 4.55659 8.60494 4.57026C8.64048 4.5894 8.26314 4.81636 6.98619 5.5519C6.07017 6.0769 5.30728 6.51167 5.29361 6.51714C5.27447 6.52534 5.26627 5.85268 5.26627 4.59487C5.26627 2.96518 5.27173 2.6644 5.30455 2.67534C5.32369 2.68354 6.0647 3.10737 6.95064 3.6187Z" fill="white"/>
-</svg>
-</div>
-        </div>
-      </div>
-
-      <!-- Right -->
-      <div class="flex gap-6">
-        <span>Privacy Policy</span>
-        <span>Terms & Conditions</span>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-<script>
-const images = [
-  "./assets/images/honda.jpg",
-  "./assets/images/honda.jpg",
-  "./assets/images/honda.jpg",
-  "./assets/images/honda.jpg",
-  "./assets/images/honda.jpg",
-  "./assets/images/honda.jpg"
-];
-
-let currentIndex = 0;
-
-// 🔥 MODAL FUNCTIONS
-function openModal(index) {
-  currentIndex = index;
-  document.getElementById("modal").classList.remove("hidden");
-  document.getElementById("modal").classList.add("flex");
-  document.getElementById("modalImg").src = images[currentIndex];
-}
-
-function closeModal() {
-  document.getElementById("modal").classList.add("hidden");
-  document.getElementById("modal").classList.remove("flex");
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % images.length;
-  document.getElementById("modalImg").src = images[currentIndex];
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  document.getElementById("modalImg").src = images[currentIndex];
-}
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      document.getElementById("modalImg").src = images[currentIndex];
+    }
 
 
-// 🔥 MASONRY GRID LOGIC
-function resizeGridItems() {
-  const grid = document.getElementById("galleryGrid");
-  const rowHeight = 10;
-  const gap = 16;
+    // 🔥 MASONRY GRID LOGIC
+    function resizeGridItems() {
+      const grid = document.getElementById("galleryGrid");
+      const rowHeight = 10;
+      const gap = 16;
 
-  grid.querySelectorAll(".grid-item").forEach(item => {
-    const img = item.querySelector("img");
+      grid.querySelectorAll(".grid-item").forEach(item => {
+        const img = item.querySelector("img");
 
-    const resize = () => {
-      const height = img.getBoundingClientRect().height;
-      const span = Math.ceil((height + gap) / rowHeight);
-      item.style.gridRowEnd = "span " + span;
-    };
+        const resize = () => {
+          const height = img.getBoundingClientRect().height;
+          const span = Math.ceil((height + gap) / rowHeight);
+          item.style.gridRowEnd = "span " + span;
+        };
 
-    if (img.complete) resize();
-    else img.onload = resize;
-  });
-}
+        if (img.complete) resize();
+        else img.onload = resize;
+      });
+    }
 
-window.addEventListener("load", resizeGridItems);
-window.addEventListener("resize", resizeGridItems);
-</script>
-<script>
-  const menuBtn = document.getElementById("menu-btn");
-  const closeBtn = document.getElementById("close-btn");
-  const menu = document.getElementById("menu");
-  const overlay = document.getElementById("overlay");
-  const links = document.querySelectorAll(".nav-link");
+    window.addEventListener("load", resizeGridItems);
+    window.addEventListener("resize", resizeGridItems);
+  </script>
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const closeBtn = document.getElementById("close-btn");
+    const menu = document.getElementById("menu");
+    const overlay = document.getElementById("overlay");
+    const links = document.querySelectorAll(".nav-link");
 
-  function openMenu() {
-    menu.classList.remove("translate-x-full");
-    overlay.classList.remove("opacity-0", "pointer-events-none");
-  }
+    function openMenu() {
+      menu.classList.remove("translate-x-full");
+      overlay.classList.remove("opacity-0", "pointer-events-none");
+    }
 
-  function closeMenu() {
-    menu.classList.add("translate-x-full");
-    overlay.classList.add("opacity-0", "pointer-events-none");
-  }
+    function closeMenu() {
+      menu.classList.add("translate-x-full");
+      overlay.classList.add("opacity-0", "pointer-events-none");
+    }
 
-  menuBtn.addEventListener("click", openMenu);
-  closeBtn.addEventListener("click", closeMenu);
+    menuBtn.addEventListener("click", openMenu);
+    closeBtn.addEventListener("click", closeMenu);
 
-  // click outside (overlay)
-  overlay.addEventListener("click", closeMenu);
+    // click outside (overlay)
+    overlay.addEventListener("click", closeMenu);
 
-  // click any link
-  links.forEach(link => {
-    link.addEventListener("click", closeMenu);
-  });
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    // click any link
+    links.forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script>
-AOS.init({
-  duration: 1200,
-  easing: 'ease-out-cubic',
-  once: true
-});
-</script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-out-cubic',
+      once: true
+    });
+  </script>
 </body>
+
 </html>
